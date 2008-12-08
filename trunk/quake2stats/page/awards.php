@@ -1,9 +1,9 @@
 <h3><?php _page_name($pathparams) ?></h3>
 <?php
 //list all awards
-$allawards = _dbquery("SELECT DISTINCT stat FROM stats",MYSQL_ASSOC);
+$allawards = _dbquery("SELECT DISTINCT stat FROM stats WHERE points !=0",MYSQL_ASSOC);
 ?>
-<ul>
+<ul class=submenu>
 <?php foreach ($allawards as $allaward) { ?>
     <li><?php _html_link('Awards',$allaward['stat']) ?></li>
 <?php } ?>
