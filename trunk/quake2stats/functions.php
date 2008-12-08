@@ -21,16 +21,22 @@ function _calc_score($kills,$suicides,$deaths,$bonus)
 function _ordinalize($number) {
     if (in_array(($number % 100),range(11,13))){
         return $number.'th';
-        }else{
+        }elseif ($number == 1) {
+         return $number.'<sup>st</sup><img src="'.PATH.'images/icons/award_star_gold_1.png">'; 
+        } elseif ($number == 2) {
+        return $number.'<sup>nd</sup><img src="'.PATH.'images/icons/award_star_silver_1.png">'; 
+        } elseif ($number == 3) {
+        return $number.'<sup>rd</sup><img src="'.PATH.'images/icons/award_star_bronze_1.png">';
+        } else {   
         switch (($number % 10)) {
         case 1:
-        return $number.'<sup>st</sup><img src="'.PATH.'images/icons/award_star_gold_1.png">';
+        return $number.'<sup>st</sup>';
         break;
         case 2:
-        return $number.'<sup>nd</sup><img src="'.PATH.'images/icons/award_star_silver_1.png">';
+        return $number.'<sup>nd</sup>';
         break;
         case 3:
-        return $number.'<sup>rd</sup><img src="'.PATH.'images/icons/award_star_bronze_1.png">';
+        return $number.'<sup>rd</sup>';
         default:
         return $number.'<sup>th</sup>';
         break;
