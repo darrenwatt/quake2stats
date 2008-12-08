@@ -1,5 +1,21 @@
 <?php
 require ('thirdparty/gchart2/gChart2.php');
+function _page_name($pathparams,$output=true)
+    {
+     if ($pathparams[1] && $pathparams[1] != 'index.html') 
+        { 
+            $pagename =  $pathparams[0]." for ".str_replace('.html','',str_replace('-',' ',$pathparams[1])); 
+        } else { 
+            $pagename = "All ".$pathparams[0]; 
+        }    
+     echo  $pagename;
+    }
+    
+function _calc_score($kills,$suicides,$deaths,$bonus)
+    {
+     $score = ($kills - $suicides) + $bonus;
+     return($score);   
+    }
 
 
 function _ordinalize($number) {

@@ -12,9 +12,9 @@ $playersrankedbyweapon = _dbquery("SELECT who, action, weapon, COUNT(*) FROM log
         </tr>      
     <?php $rank=1; foreach ($playersrankedbyweapon as $stats) { ?>
         <tr>
-            <td class=rank><?php echo $rank;$rank++; ?></td>
+            <td class=rank><?php echo _ordinalize($rank);$rank++; ?></td>
             <td class=name><?php _html_link('Player',$stats['who']);?></td>
-            <td class=weapon><?php _html_link('Weapon',$stats['weapon']); ?></td>
+            <td class=weapon><?php _html_link('Weapons',$stats['weapon']); ?></td>
             <td class=kills><?php echo $stats['COUNT(*)']; ?></td>
         </tr>
     <?php } ?>

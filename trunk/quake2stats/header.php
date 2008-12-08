@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <meta http-equiv="content-language" content="en">
 <meta name="generator" content="KungFu Stats by James Lloyd & Darren Watt">
-<title>KungFu Stats - </title>
+<title>KungFu Stats <?php if (!empty($pathparams[0])) { echo $pathparams[0]; } ?></title>
 <link rel="stylesheet" type="text/css" href="<?php echo PATH; ?>style.css">
 
 </head>
@@ -23,7 +23,7 @@
         <ul>
             <li><a href="<?php echo PATH; ?>">Home</a></li>
             <li><?php _html_link('Awards')?></li>
-            <li><?php _html_link('page','Player Ranking'); ?></li>
+            <li><?php _html_link('Weapons')?></li> 
             <li><?php _html_link('page','Players Ranked by Weapon'); ?></li>
         </ul>
     </div>

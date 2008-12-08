@@ -1,24 +1,40 @@
 <?php 
-$playerranking = _dbquery ("SELECT who, action, COUNT(*) FROM log WHERE action = 'kill' GROUP BY who  ORDER BY COUNT(*) DESC",MYSQL_ASSOC);
+$playerscore = _dbquery ("SELECT * FROM stats where stat = 'total score' ORDER by figure DESC",MYSQL_ASSOC);
+foreach ($playerscore as $score)
+    {
+        $plyscrs = _dbquery ("SELECT * FROM stats WHERE playername = '".$score['playername']."' ",MYSQL_ASSOC);   
+        
+foreach ($plyscrs as $ranking)
+    {
+     $output[$score['playername']][$ranking['stat']]=  $ranking['figure'] ;
+     $output[$score['playername']]['name'] =  $ranking['playername'];
+    }
+    
+    
+    }
+
 ?>
 <div >
     <h2><a name="Player-Ranking">Player Ranking</a></h2>
-    <table class="main-stats">
+    <table class="sortable main-stats">
+    <thead>
     <tr>
-          <th class=rank>Rank</th>
+          <th class=rank></th>
           <th>Player name</th>
+          <th>Score</th>
           <th>No. of Kills</th>
           <th>No. of Deaths</th>
           <th> K:D</th>  
-    </tr>      
-    <?php $rank=1; foreach ($playerranking as $stats) { ?>
+    </tr>
+    </thead>      
+    <?php foreach ($output as $stats) { ?>
         <tr>
-            <td class=rank><?php echo $rank;$rank++; ?></td>
-            <td class=name><?php _html_link('Player',$stats['who']);?></td>
-            <td class=kills><?php echo $stats['COUNT(*)']; ?></td>
-    <?php $playerdeaths = _dbquery ("SELECT target, action, COUNT(*) FROM log WHERE action = 'kill' and target = '".$stats['who']."' GROUP BY target,who  ORDER BY COUNT(*) DESC",MYSQL_ASSOC); ?>               
-            <td class=deaths><?php echo $playerdeaths[0]['COUNT(*)']; ?>
-            <td class=kd><?php echo round($stats['COUNT(*)']/$playerdeaths[0]['COUNT(*)'],1)?></td>
+            <td class=rank></td> 
+            <td class=name style="text-align:left;"><?php _html_link('Player',$stats['name']);?></td>
+            <td class=kills><?php echo $stats['total score']; ?></td>
+            <td class=kills><?php echo $stats['total kills']; ?></td>
+            <td class=deaths><?php echo $stats['total deaths']; ?></td>
+            <td class=kd><?php echo $stats['k2d']/10; ?></td>
         </tr>
     <?php } ?>
     </table>

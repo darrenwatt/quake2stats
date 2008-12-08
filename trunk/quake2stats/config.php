@@ -1,6 +1,6 @@
 <?php
 
-define("PATH", "/q2stats_v0.2/");    // www path where its installed
+define("PATH", "/q2stats/");    // www path where its installed
 $db_user = "root"; // Username
 $db_pass = ""; // Password
 $db_database = "q2stats"; // Database Name

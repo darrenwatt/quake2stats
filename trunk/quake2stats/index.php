@@ -14,7 +14,7 @@ include ('config.php');
         case "Player":
         $page = 'page/player.php';
         break;
-        case "Weapon":
+        case "Weapons":
         $page = 'page/weapon.php';
         break;
         case "Map":
@@ -44,7 +44,7 @@ foreach ($all_player_stats as $sta)
          $player_stats[$sta['playername']]['awards'][$sta['stat']]['rank']=$sta['rank'];
          $player_stats[$sta['playername']]['awards'][$sta['stat']]['points']=$sta['points'];
         }
-       if ( $sta['statsal'] == 'total score')
+       if ( $sta['stats'] == 'total score')
         {
          $player_stats[$sta['playername']]['score']=$sta['points']; 
         }

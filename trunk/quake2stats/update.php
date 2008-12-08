@@ -1,5 +1,5 @@
 <?php
-$filename = 'g:\wamp\www\q2stats\new-stats1.log';
+$filename = 'g:\wamp\www\q2stats\test.log';
 $db_user = "root"; // Username
 $db_pass = ""; // Password
 $db_database = "q2stats"; // Database Name
@@ -190,7 +190,7 @@ foreach ($statsallplayers as $player)
     }
 
 
-// Go through stats and apply ranks    
+// Go through stats and apply ranks and bonus points   
 $alltypesofstat = _dbquery("SELECT DISTINCT stat from stats",MYSQL_ASSOC);
 foreach ($alltypesofstat as $thing)
     {
@@ -209,9 +209,9 @@ foreach ($alltypesofstat as $thing)
 foreach ($statsallplayers as $player)
     {
      $totalawardscores = _dbquery("SELECT sum(points) FROM stats WHERE playername = '".$player['who']."' AND points != 0",MYSQL_ASSOC);   
-     $totalscore = $totalawardscores['sum(points)'];
+     $totalscore = $totalawardscores[0]['sum(points)'];
      $totalscore = $totalscore + ($suicidesforscore[$player['who']] - ($suicidesforscore[$player['who']]*2)) + $killsforscore[$player['who']];
-     _dbupdate ("INSERT INTO `q2stats`.`stats` (`playername` ,`stat` ,`figure` ,`rank` ,`points`) VALUES ('".$player['who']."', 'total Score', '".$totalscore."', 0, 0);");
+     _dbupdate ("INSERT INTO `q2stats`.`stats` (`playername` ,`stat` ,`figure` ,`rank` ,`points`) VALUES ('".$player['who']."', 'total score', '".$totalscore."', 0, 0);");
     }
 
 ?>Stats updated

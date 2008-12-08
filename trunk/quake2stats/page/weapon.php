@@ -1,9 +1,7 @@
 <?php
 $weaponname = str_replace('-',' ',str_replace('.html','',$pathparams[1]));  
 ?>
-<h2><a href="<?php echo $_SERVER['REQUEST_URI'] ?>"><?php
-   echo $weaponname;
-?>  </a></h2>
+<h3><?php _page_name($pathparams) ?></h3> 
 <?php $weaponstat = _dbquery ("SELECT who,action, COUNT(*) FROM log WHERE weapon = '".$weaponname."' AND action = 'kill' GROUP BY who ORDER By COUNT(*) DESC",MYSQL_ASSOC); ?>
 
 
