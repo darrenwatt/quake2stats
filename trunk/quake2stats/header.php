@@ -24,6 +24,5 @@
             <li><a href="<?php echo PATH; ?>">Home</a></li>
             <li><?php _html_link('Awards')?></li>
             <li><?php _html_link('Weapons')?></li> 
-            <li><?php _html_link('page','Players Ranked by Weapon'); ?></li>
         </ul>
     </div>

@@ -15,7 +15,7 @@ foreach ($plyscrs as $ranking)
 
 ?>
 <div >
-    <h2><a name="Player-Ranking">Player Ranking</a></h2>
+    <h3>Home</h3>
     <table class="sortable main-stats">
     <thead>
     <tr>
@@ -27,9 +27,9 @@ foreach ($plyscrs as $ranking)
           <th> K:D</th>  
     </tr>
     </thead>      
-    <?php foreach ($output as $stats) { ?>
+    <?php $i=1;foreach ($output as $stats) { ?>
         <tr>
-            <td class=rank></td> 
+            <td class=rank><?php echo _ordinalize($i);$i++ ?></td> 
             <td class=name style="text-align:left;"><?php _html_link('Player',$stats['name']);?></td>
             <td class=kills><?php echo $stats['total score']; ?></td>
             <td class=kills><?php echo $stats['total kills']; ?></td>

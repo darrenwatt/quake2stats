@@ -74,18 +74,21 @@ table.sortable thead:hover { background:#203052; }
 
 .main-stats .rank,.main-stats .kills{
     text-align:center;
-    width:100px;
+    width:50px;
 }
+
 .main-stats .weapon {
     width:100px;
 }
 .main-stats th, .main-stats td {
-width:100%; 
+
 padding: 0.5em; 
 
 color:#eeeeee;
 }
-.main-stats th { text-align :left; }
+table .main-stats { width: 100%;}
+.main-stats th { text-align : center; }
+.main-stats .name th  { text-align : left; background: #333333;border:none;  } 
 .main-stats td { text-align : center;}
 .main-stats td .id {text-align:left; }
 .main-stats th,.main-stats .rank {
@@ -94,14 +97,17 @@ color:#eeeeee;
 .main-stats .name {
     border-left:5px solid #999999;
     border-top:5px solid #999999;
-    background:#666666; 
+    background:#666666;
+    text-align:left; 
 }
 .main-stats .kills,.main-stats .deaths,.main-stats .kd {
     border:5px solid #999999;
     background:#999999;
+    width:50px;
 }
 .main-stats .weapon {
-   
+    width:250px;
+    text-align:left;
     border-top:5px solid #999999;
     background:#666666; 
 }
@@ -119,3 +125,4 @@ h1,h2,h3,h4,h5,h6 {
 }
 .submenu li { display:inline;} 
 .submenu { padding-left:20px;padding-top:0px;}
+table { width:98%; }

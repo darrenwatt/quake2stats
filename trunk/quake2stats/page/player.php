@@ -45,7 +45,7 @@ $playername = str_replace('%7B','{',str_replace('%7D','}',str_replace('-',' ',st
 <?php } ?>
 <?php if ( $player_stats[$playername]['awards']) {   ?>
         <table class="sortable main-stats">
-        <thead><tr><th>Award</th><th>Medal</th><th>Bonus</th></tr></thead>
+        <thead><tr><th>Awards</th><th>Medal</th><th>Bonus</th></tr></thead>
             <?php foreach ( $player_stats[$playername]['awards'] as $award ) { ?>
             <tr>
                <td><?php _html_link('Awards',$award['name']) ?></td>
