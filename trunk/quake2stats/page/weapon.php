@@ -24,14 +24,7 @@ $playersrankedbyweapon = _dbquery("SELECT who, action, weapon, COUNT(*) FROM log
 ?>
     <h2><a name="Players-Ranked-by-Weapon">Players Ranked by Weapon Top 50</a></h2>
     <table class="main-stats">
-     <thead>
-        <tr>
-              <th class=rank>Rank</th>
-              <th width="200px" class=name>Player name</th>
-              <th>Weapon</th>
-              <th>No. of Kills</th>
-        </tr> 
-     </thead>     
+     <thead><tr><th >Rank</th><th>Player name</th><th>Weapon</th><th>No. of Kills</th></tr></thead>     
     <?php $rank=1; foreach ($playersrankedbyweapon as $stats) { ?>
         <tr>
             <td class=rank><?php echo _ordinalize($rank);$rank++; ?></td>
@@ -45,13 +38,13 @@ $playersrankedbyweapon = _dbquery("SELECT who, action, weapon, COUNT(*) FROM log
 
 <?php $weaponstat = _dbquery ("SELECT who,action, COUNT(*) FROM log WHERE weapon = '".$weaponname."' AND action = 'kill' GROUP BY who ORDER By COUNT(*) DESC",MYSQL_ASSOC); ?>
     <?php if (count($weaponstat) > 0) {   ?>
-    <table class=main-stats>
+    <table class="main-stats sortable">
         <thead><tr><th class=rank>Rank</th><th>Player Name</th><th>Kills with <?php echo $weaponname; ?></th></tr></thead>
-        <?php  foreach($weaponstat as $stat) { ?>
+        <?php $i=1; foreach($weaponstat as $stat) { ?>
         <tr class=name>
-            <td class=rank><?php echo _ordinalize($stat['rank']) ?></td>
+            <td class=rank><?php echo _ordinalize($i); $i++ ?></td>
             <td class=name><?php _html_link('Player',$stat['who']) ?></td>
-            <td class=name><?php echo $stat['COUNT(*)'] ?></td>
+            <td class=kills><?php echo $stat['COUNT(*)'] ?></td>
         </tr>
         <?php } ?>
     </table>

@@ -111,7 +111,9 @@ table .main-stats { width: 100%;}
     border-top:5px solid #999999;
     background:#666666; 
 }
-
+.main-stats .kills {
+ font-weight:bold;
+}
 .nemesis {
 color:#FF8080;
 font-weight:bold;}
