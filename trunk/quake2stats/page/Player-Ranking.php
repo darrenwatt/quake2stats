@@ -34,7 +34,7 @@ foreach ($plyscrs as $ranking)
             <td class=kills><?php echo $stats['total score']; ?></td>
             <td class=kills><?php echo $stats['total kills']; ?></td>
             <td class=deaths><?php echo $stats['total deaths']; ?></td>
-            <td class=kd><?php echo $stats['k2d']/10; ?></td>
+            <td class=kd><?php echo $stats['kill:death ratio']/10; ?></td>
         </tr>
     <?php } ?>
     </table>

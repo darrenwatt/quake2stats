@@ -12,7 +12,7 @@ $playername = str_replace('%7B','{',str_replace('%7D','}',str_replace('-',' ',st
         <td><?php echo $player_stats[$playername]['total kills']['figure'];?></td>
         <td><?php echo $player_stats[$playername]['total deaths']['figure'];?></td> 
         <td><?php echo $player_stats[$playername]['total suicides']['figure'];?></td> 
-        <td><?php echo $player_stats[$playername]['k2d']['figure']/10 ;?></td>
+        <td><?php echo $player_stats[$playername]['kill:death ratio']['figure']/10 ;?></td>
     </tr>
 </table>
 <?php if ($player_stats[$playername]['action']) { ?>     

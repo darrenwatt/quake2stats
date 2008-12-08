@@ -21,6 +21,7 @@ $scores = array (
         'total Grappling Hook kills' =>     array ( '1' => 50, '2' => 30, '3' => 15 ),
         'total suicides' =>                 array ( '1' => -50, '2' => -30, '3' => -15 ),
         'total kills' =>                    array ( '1' => 25, '2' => 15, '3' => 7 ),  
+        'kill:death ratio' =>                    array ( '1' => 25, '2' => 15, '3' => 7 ),
         );
 
 /*############ My SQL Functions  ###############*/
@@ -178,7 +179,7 @@ foreach ($statsallplayers as $player)
      $deaths = $deaths -1;
      _dbupdate("INSERT INTO `".$db_database."`.`stats` (`playername`, `stat`, `figure`) VALUES ( '".mysql_escape_string($player['who'])."','total deaths','".$deaths."');");
      if ($deaths > 0) { $k2d =  round($kills/$deaths,1)*10; } else { $k2d = 0; }
-     _dbupdate("INSERT INTO `".$db_database."`.`stats` (`playername`, `stat`, `figure`) VALUES ( '".mysql_escape_string($player['who'])."','k2d','".$k2d."');");
+     _dbupdate("INSERT INTO `".$db_database."`.`stats` (`playername`, `stat`, `figure`) VALUES ( '".mysql_escape_string($player['who'])."','kill:death ratio','".$k2d."');");
      
      foreach ($guns as $gun)
         {
