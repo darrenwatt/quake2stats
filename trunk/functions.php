@@ -27,30 +27,39 @@ function _calc_score($kills,$suicides,$deaths,$bonus)
         }else{
         switch (($number % 10)) {
         case 1:
-        return $number.'<sup>st</sup><img src="'.PATH.'images/icons/'.$icon.'_gold_1.png">';
+        return $number.'<sup>st</sup><img src="'.PATH.'images/icons/'.$icon.'_gold_2.png">';
         break;
         case 2:
-        return $number.'<sup>nd</sup><img src="'.PATH.'images/icons/'.$icon.'_silver_1.png">';
+        return $number.'<sup>nd</sup><img src="'.PATH.'images/icons/'.$icon.'_silver_2.png">';
         break;
         case 3:
-        return $number.'<sup>rd</sup><img src="'.PATH.'images/icons/'.$icon.'_bronze_1.png">';
+        return $number.'<sup>rd</sup><img src="'.PATH.'images/icons/'.$icon.'_bronze_2.png">';
         default:
         return $number.'<sup>th</sup>';
         break;
         }
     }
 }
-function _medal_img_link($stat,$rank)
+function _medal_img_link($stat,$rank,$type="good")
     {
+    switch ($type)
+        {
+         case "good":
+         $type = '2';
+         break;
+         case "bad";
+         $type = '1';
+         break;   
+        }
     switch ($rank) {
         case 1:
-        $image = '<img src="'.PATH.'images/icons/medal_gold_1.png">'; 
+        $image = '<img src="'.PATH.'images/icons/medal_gold_'.$type.'.png">'; 
         break;
         case 2:
-        $image = '<img src="'.PATH.'images/icons/medal_silver_1.png">'; 
+        $image = '<img src="'.PATH.'images/icons/medal_silver_'.$type.'.png">'; 
         break;
         case 3:
-        $image = '<img src="'.PATH.'images/icons/medal_bronze_1.png">';
+        $image = '<img src="'.PATH.'images/icons/medal_bronze_'.$type.'.png">';
         break;
         default:
         echo 'error rank '.$rank.' should not be passed';

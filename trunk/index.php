@@ -68,7 +68,7 @@ foreach ($all_player_stats as $sta)
              $player_stats[$sta['playername']]['map'][$mapdeath['map']]['name']=$mapdeath['map'];
             } } 
        $mapsuicides = _dbquery("SELECT map,COUNT(*) FROM `log` WHERE who = '".$sta['playername']."' AND action = 'suicide' group by map",MYSQL_ASSOC);
-       if($mapdeaths) {
+       if($mapsuicides) {
         foreach ($mapsuicides as $mapsuicide)
             {
              $player_stats[$sta['playername']]['map'][$mapsuicide['map']]['suicides']=$mapsuicide['COUNT(*)'];   

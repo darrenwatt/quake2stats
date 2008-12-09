@@ -27,12 +27,14 @@ foreach ($plyscrs as $ranking)
           <th> K:D</th> 
     </tr>      
     <?php $i=1;foreach ($output as $stats) {
-     $medals = _dbquery ("SELECT rank,stat FROM stats WHERE playername = '".$stats['name']."' AND rank < 4 AND figure > 0 AND points > 0 and good = 1 order by rank",MYSQL_ASSOC); ?>
+     $goodmedals = _dbquery ("SELECT rank,stat FROM stats WHERE playername = '".$stats['name']."' AND rank < 4 AND figure > 0 AND points > 0 and good = 1 order by rank",MYSQL_ASSOC);
+     $badmedals = _dbquery ("SELECT rank,stat FROM stats WHERE playername = '".$stats['name']."' AND rank < 4 AND figure > 0 AND points != 0 and good = 0 order by rank",MYSQL_ASSOC); ?>
         <tr>
             <td class=rank><?php echo _ordinalize($i,'rank');$i++ ?></td> 
             <td class=name style="text-align:left;">
                 <?php _html_link('Player',$stats['name']);?>
-                <?php if ($medals) { foreach ($medals as $medal) { _medal_img_link($medal['stat'],$medal['rank']); } }?>
+                <?php if ($goodmedals) { foreach ($goodmedals as $medal) { _medal_img_link($medal['stat'],$medal['rank']); } }?>
+                <?php if ($badmedals) { foreach ($badmedals as $medal) { _medal_img_link($medal['stat'],$medal['rank'],'bad'); } }?>
             </td>
             <td class=kills><?php echo $stats['total score']; ?></td>
             <td class=kills><?php echo $stats['total kills']; ?></td>
