@@ -1,0 +1,5292 @@
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	10:11:00
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			90
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	10:12:37
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		PlayerConnect	KungFuDazza		11
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	10:28:17
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		PlayerConnect	KungFuDazza		0
+		PlayerLeft	KungFuDazza		538
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	10:43:19
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	10:58:20
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	11:13:23
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	11:28:25
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	11:43:29
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	11:58:32
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	12:13:34
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	12:28:37
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	12:43:40
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	12:58:42
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	13:13:45
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	13:28:46
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	13:43:49
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	13:58:51
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	14:13:54
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	14:28:57
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	14:43:59
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	14:59:02
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	15:14:04
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	15:29:07
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	15:44:10
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	15:59:10
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	16:14:13
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	16:29:17
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	16:44:19
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	16:59:22
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	17:14:25
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	17:29:28
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	17:44:31
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	17:59:34
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	18:14:37
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	18:29:38
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	18:44:40
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	18:59:43
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	19:14:46
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	19:29:48
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	19:44:51
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	19:59:53
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	20:14:56
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	20:30:02
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	20:45:05
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	21:00:12
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	21:15:15
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	21:30:18
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	21:45:20
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	22:00:23
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	22:15:25
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	22:30:28
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	22:45:30
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	23:00:33
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	23:15:35
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	23:30:36
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	27 Nov 2008
+		LogTime	23:45:39
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	00:00:42
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	00:15:44
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	00:30:47
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	00:45:50
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	01:00:53
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	01:15:55
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	01:30:58
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	01:46:01
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	02:01:02
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	02:16:04
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	02:31:07
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	02:46:09
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	03:01:12
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	03:16:16
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	03:31:18
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	03:46:20
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	04:01:23
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	04:16:26
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	04:31:26
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	04:46:29
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	05:01:32
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	05:16:34
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	05:31:36
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	05:46:39
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	06:01:41
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	06:16:44
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	06:31:46
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	06:46:49
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	07:01:50
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	07:16:53
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	07:31:55
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	07:46:57
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	08:02:00
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	08:17:02
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	08:32:05
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	08:47:07
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	09:02:10
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	09:17:14
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	09:32:14
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	09:47:18
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	10:02:20
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	10:17:24
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	10:32:26
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	10:47:29
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	11:02:31
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	11:17:34
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	11:32:36
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	11:47:39
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	12:02:40
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	12:17:42
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	12:32:45
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	12:47:47
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	13:02:50
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	13:17:52
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	13:32:55
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	13:47:57
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	14:03:01
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	14:18:03
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	14:33:04
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		PlayerConnect	KungFuMonkay		604
+KungFuMonkay		Suicide	Crushed	-1	687	57
+		PlayerConnect	KungFuDazza		763
+KungFuDazza	KungFuMonkay	Kill	Super Shotgun	1	835	2
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	14:48:42
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		PlayerConnect	KungFuDazza		0
+		PlayerConnect	KungFuMonkay		1
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	15:04:05
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		PlayerConnect	KungFuDazza		0
+		PlayerConnect	KungFuMonkay		1
+		PlayerLeft	KungFuDazza		48
+		PlayerConnect	KungFuDazza		95
+KungFuDazza	KungFuMonkay	Kill	Chaingun	1	104	4
+KungFuDazza	KungFuMonkay	Kill	Railgun	1	302	3
+KungFuDazza	KungFuMonkay	Kill	Railgun	1	323	3
+KungFuMonkay		Suicide	Crushed	-1	342	57
+KungFuDazza	KungFuMonkay	Kill	Railgun	1	389	4
+KungFuMonkay	KungFuDazza	Kill	Railgun	1	470	59
+KungFuMonkay	KungFuDazza	Kill	Railgun	1	494	56
+KungFuMonkay	KungFuDazza	Kill	Railgun	1	646	56
+KungFuDazza	KungFuMonkay	Kill	Railgun	1	735	3
+KungFuDazza	KungFuMonkay	Kill	Railgun	1	755	4
+KungFuMonkay	KungFuDazza	Kill	HyperBlaster	1	756	58
+KungFuMonkay	KungFuDazza	Kill	Chaingun	1	842	59
+		PlayerLeft	KungFuDazza		848
+KungFuMonkay		Suicide	Crushed	-1	860	56
+		PlayerLeft	KungFuMonkay		860
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	15:19:07
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	15:34:10
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	15:49:12
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	16:04:15
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	16:19:19
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	16:34:21
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	16:49:22
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	17:04:22
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	17:19:23
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	17:34:24
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	17:49:25
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	18:04:25
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	18:19:26
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	18:34:28
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		PlayerConnect	KungFuMonkay		398
+		PlayerLeft	KungFuMonkay		400
+		PlayerConnect	Firefudger		779
+Firefudger		Suicide	Lava	-1	829	59
+Firefudger		Suicide	Lava	-1	840	59
+		GameEnd			900
+		PlayerLeft	Firefudger		932
+		PlayerConnect	KungFuMonkay-(x		999
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	18:51:08
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		PlayerConnect	KungFuMonkay-(x		2
+		PlayerLeft	KungFuMonkay-(x		427
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	19:06:09
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	19:21:10
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	19:36:10
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	19:51:11
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	20:06:12
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	20:21:13
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	20:36:14
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	20:51:15
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	21:06:15
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	21:21:16
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	21:36:17
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	21:51:18
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	22:06:43
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	22:21:43
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	22:36:44
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	22:51:45
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	23:06:46
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	23:21:48
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	23:37:13
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	28 Nov 2008
+		LogTime	23:52:13
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	00:07:14
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	00:22:15
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	00:37:16
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	00:52:16
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	01:07:17
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	01:22:18
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	01:37:18
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	01:52:19
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	02:07:20
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	02:22:20
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	02:37:21
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	02:52:22
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	03:07:23
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	03:22:24
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	03:37:24
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	03:52:25
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	04:07:26
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	04:22:26
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	04:37:27
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	04:52:28
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	05:07:29
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	05:22:31
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	05:37:31
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	05:52:32
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	06:07:33
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	06:22:33
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	06:37:34
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	06:52:35
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	07:07:35
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	07:22:36
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	07:37:37
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	07:52:38
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	08:07:38
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	08:22:39
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	08:38:04
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	08:53:05
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	09:08:07
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	09:23:07
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	09:38:08
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	09:53:09
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	10:08:10
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	10:23:11
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	10:38:13
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	10:53:13
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	11:08:14
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	11:23:15
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	11:38:15
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	11:53:17
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	12:08:19
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	12:23:21
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	12:38:23
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	12:53:24
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	13:08:25
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	13:23:26
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	13:38:27
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	13:53:27
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	14:08:28
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	14:23:30
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	14:38:31
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	14:53:31
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	15:08:32
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	15:23:33
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	15:38:35
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	15:53:35
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	16:08:36
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	16:23:38
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	16:38:39
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	16:53:40
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	17:08:41
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	17:23:42
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	17:38:43
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	17:53:44
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	18:08:45
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	18:23:46
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	18:38:47
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	18:53:47
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	19:08:48
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	19:23:50
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	19:38:50
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	19:53:51
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	20:08:52
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	20:23:53
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	20:38:55
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	20:53:55
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	21:08:56
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	21:23:57
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	21:38:58
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	21:53:59
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	22:09:00
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	22:24:01
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	22:39:02
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	22:54:03
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	23:09:04
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	23:24:06
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	23:39:06
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	29 Nov 2008
+		LogTime	23:54:07
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	00:09:08
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	00:24:09
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	00:39:09
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	00:54:10
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	01:09:11
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	01:24:12
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	01:39:13
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	01:54:14
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	02:09:14
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	02:24:15
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	02:39:16
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	02:54:17
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	03:09:17
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	03:24:18
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	03:39:19
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	03:54:20
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	04:09:20
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	04:24:21
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	04:39:22
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	04:54:23
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	05:09:24
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	05:24:25
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	05:39:27
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	05:54:27
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	06:09:29
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	06:24:30
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	06:39:31
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	06:54:31
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	07:09:32
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	07:24:33
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	07:39:34
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	07:54:35
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	08:09:36
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	08:24:36
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	08:39:37
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	08:54:38
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	09:09:39
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	09:24:40
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	09:39:40
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	09:54:41
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	10:09:42
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	10:24:42
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	10:39:43
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	10:54:44
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	11:09:44
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	11:24:45
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	11:39:46
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	11:54:47
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	12:09:47
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	12:24:48
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	12:39:49
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	12:54:50
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	13:09:50
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	13:24:51
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	13:39:53
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	13:54:54
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	14:09:59
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	14:25:05
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	14:40:09
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	14:55:13
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	15:10:17
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	15:25:21
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	15:40:25
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	15:55:31
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		PlayerConnect	KungFuMonkay-(x		40
+		PlayerLeft	KungFuMonkay-(x		367
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	16:10:35
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	16:25:40
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	16:40:48
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	16:55:55
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	17:10:56
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	17:25:57
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	17:40:57
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		PlayerConnect	KungFuDazza		497
+		PlayerConnect	KungFuMonkay-(x		525
+KungFuDazza	KungFuMonkay-(x	Kill	Rocket Launcher	1	644	3
+KungFuDazza	KungFuMonkay-(x	Kill	Rocket Launcher	1	682	2
+KungFuDazza	KungFuMonkay-(x	Kill	Rocket Launcher	1	692	3
+		PlayerLeft	KungFuDazza		730
+		PlayerLeft	KungFuMonkay-(x		778
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	17:55:58
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	18:10:59
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	18:25:59
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	18:41:03
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	18:56:05
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	19:11:05
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	19:26:06
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	19:41:07
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	19:56:08
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	20:11:08
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	20:26:09
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	20:41:10
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	20:56:11
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	21:11:12
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	21:26:13
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	21:41:14
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	21:56:15
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	22:11:15
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	22:26:16
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	22:41:17
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	22:56:18
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	23:11:18
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	23:26:19
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	23:41:20
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	30 Nov 2008
+		LogTime	23:56:21
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	00:11:22
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	00:26:24
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	00:41:29
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	00:56:30
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	01:11:32
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	01:26:33
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	01:41:33
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	01:56:34
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	02:11:35
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	02:26:36
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	02:41:37
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	02:56:38
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	03:11:38
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	03:26:39
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	03:41:40
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	03:56:41
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	04:11:41
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	04:26:42
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	04:41:43
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	04:56:43
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	05:11:44
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	05:26:45
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	05:41:46
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	05:56:46
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	06:11:47
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	06:26:48
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	06:41:49
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	06:56:49
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	07:11:50
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	07:26:51
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	07:41:52
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	07:56:52
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	08:11:53
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	08:26:54
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	08:41:55
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	08:56:58
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	09:11:59
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	09:27:00
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	09:42:00
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	09:57:01
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	10:12:02
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	10:27:03
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	10:42:03
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	10:57:04
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	11:12:05
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	11:27:06
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	11:42:06
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	11:57:07
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	12:12:08
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	12:27:09
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	12:42:09
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	12:57:10
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	13:12:11
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	13:27:11
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	13:42:12
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	13:57:13
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	14:12:14
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	14:27:14
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	14:42:15
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	14:57:30
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		PlayerConnect	KungFuDazza		334
+		PlayerLeft	KungFuDazza		340
+		PlayerConnect	KungFuDazza		363
+		PlayerLeft	KungFuDazza		366
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	15:13:03
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	15:28:13
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	15:43:14
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	15:58:16
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	16:13:17
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	16:28:17
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		PlayerConnect	KungFuDazza		799
+		PlayerLeft	KungFuDazza		800
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	16:43:18
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	16:58:19
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	17:13:20
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	17:28:21
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	17:43:22
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	17:58:23
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	18:13:24
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	18:28:24
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	18:43:25
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	18:58:26
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	19:13:27
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	19:28:27
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	19:43:28
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	19:58:29
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	20:13:30
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	20:28:31
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	20:43:32
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	20:58:33
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	21:13:34
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	21:28:35
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	21:43:36
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	21:58:37
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	22:13:38
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	22:28:39
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	22:43:40
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	22:58:40
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	23:13:41
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	23:28:42
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	23:43:43
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	01 Dec 2008
+		LogTime	23:58:44
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	00:13:44
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	00:28:45
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	00:43:46
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	00:58:47
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	01:13:48
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	01:28:49
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	01:43:49
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	01:58:50
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	02:13:51
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	02:28:52
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	02:43:54
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	02:58:55
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	03:13:55
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	03:28:56
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	03:43:57
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	03:58:58
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	04:13:58
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	04:28:59
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	04:44:00
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	04:59:01
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	05:14:02
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	05:29:02
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	05:44:03
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	05:59:04
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	06:14:05
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	06:29:06
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	06:44:06
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	06:59:07
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	07:14:08
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	07:29:09
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	07:44:09
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	07:59:10
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	08:14:11
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	08:29:12
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	08:44:12
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	08:59:13
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	09:14:14
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	09:29:15
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	09:44:15
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	09:59:16
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	10:14:18
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	10:29:19
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	10:44:19
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		PlayerConnect	KungFuDazza		58
+		PlayerLeft	KungFuDazza		115
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	10:59:21
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	11:14:21
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	11:29:22
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	11:44:23
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	11:59:23
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	12:14:24
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	12:29:25
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	12:44:26
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	12:59:26
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	13:14:27
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	13:29:28
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	13:44:29
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	13:59:29
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	14:14:30
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	14:29:31
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	14:44:32
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	14:59:32
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	15:14:33
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	15:29:34
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	15:44:34
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	15:59:35
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	16:14:36
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	16:29:37
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	16:44:38
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	16:59:38
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	17:14:39
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	17:29:40
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	17:44:41
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	17:59:42
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	18:14:42
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	18:29:43
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	18:44:44
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	18:59:45
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	19:14:46
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	19:29:46
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	19:44:47
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	19:59:48
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	20:14:49
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	20:29:56
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	20:44:57
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	20:59:58
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	21:14:59
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	21:30:00
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	21:45:03
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	22:00:04
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	22:15:05
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	22:30:05
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	22:45:06
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	23:00:08
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	23:15:09
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	23:30:10
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	02 Dec 2008
+		LogTime	23:45:10
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	00:00:11
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	00:15:12
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	00:30:13
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	00:45:15
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	01:00:16
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	01:15:17
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	01:30:17
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	01:45:18
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	02:00:19
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	02:15:20
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	02:30:20
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	02:45:21
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	03:00:22
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	03:15:23
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	03:30:23
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	03:45:24
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	04:00:25
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	04:15:25
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	04:30:26
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	04:45:27
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	05:00:29
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	05:15:29
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	05:30:31
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	05:45:32
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	06:00:34
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	06:15:35
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	06:30:36
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	06:45:37
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	07:00:39
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	07:15:39
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	07:30:41
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	07:45:42
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	08:00:43
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	08:15:44
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	08:30:44
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	08:45:45
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	09:00:46
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	09:15:47
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	09:30:47
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	09:45:48
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	10:00:49
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	10:15:50
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	10:30:50
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	10:45:51
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	11:00:52
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	11:15:52
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	11:30:53
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	11:45:54
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	12:00:55
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	12:15:57
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	12:30:58
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	12:45:58
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	13:00:59
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	13:16:00
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	13:31:01
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	13:46:01
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	14:01:02
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	14:16:03
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	14:31:04
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	14:46:04
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	15:01:05
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	15:16:06
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	15:31:07
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	15:46:07
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	16:01:08
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	16:16:09
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	16:31:10
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	16:46:10
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	17:01:13
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	17:16:14
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	17:31:14
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	17:46:15
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	18:01:16
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	18:16:19
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	18:31:20
+		LogDeathFlags	17428
+		Map	Tokay's Towers
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	18:46:23
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	19:01:25
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	19:16:26
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	19:31:26
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	19:46:27
+		LogDeathFlags	17428
+		Map	The Pits
+		GameStart			0
+		PlayerConnect	KungFuMonkay		881
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	20:01:48
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		PlayerConnect	KungFuMonkay		1
+		PlayerConnect	KungFuDazza		407
+KungFuDazza	KungFuMonkay	Kill	Shotgun	1	425	4
+		PlayerConnect	AkaFlash		451
+KungFuDazza	KungFuMonkay	Kill	Shotgun	1	494	4
+KungFuDazza	AkaFlash	Kill	Super Shotgun	1	508	4
+AkaFlash		Suicide	Lava	-1	519	3
+KungFuDazza	KungFuMonkay	Kill	Super Shotgun	1	523	5
+AkaFlash	KungFuDazza	Kill	Chaingun	1	537	2
+KungFuMonkay	AkaFlash	Kill	BFG10K	1	554	56
+AkaFlash		Suicide	Lava	-1	566	3
+KungFuMonkay	KungFuDazza	Kill	Chaingun	1	568	52
+KungFuMonkay	KungFuDazza	Kill	Chaingun	1	612	58
+AkaFlash		Suicide	Lava	-1	619	3
+KungFuMonkay	KungFuDazza	Kill	Railgun	1	629	54
+KungFuDazza	AkaFlash	Kill	Chaingun	1	643	4
+KungFuDazza	AkaFlash	Kill	Shotgun	1	655	4
+KungFuDazza		Suicide	Railgun	-1	684	4
+KungFuMonkay		Suicide	Lava	-1	691	53
+KungFuDazza	AkaFlash	Kill	Super Shotgun	1	695	4
+KungFuDazza	KungFuMonkay	Kill	Super Shotgun	1	710	4
+KungFuDazza	AkaFlash	Kill	Chaingun	1	717	4
+KungFuDazza	KungFuMonkay	Kill	Chaingun	1	726	4
+AkaFlash		Suicide	Lava	-1	769	3
+KungFuMonkay	AkaFlash	Kill	BFG10K	1	783	58
+KungFuMonkay	KungFuDazza	Kill	Chaingun	1	790	58
+KungFuMonkay	AkaFlash	Kill	Chaingun	1	793	54
+AkaFlash	KungFuDazza	Kill	Blaster	1	819	3
+KungFuDazza	AkaFlash	Kill	Railgun	1	839	4
+AkaFlash		Suicide	Lava	-1	865	3
+KungFuMonkay	AkaFlash	Kill	Railgun	1	868	56
+KungFuDazza	AkaFlash	Kill	Railgun	1	876	5
+KungFuMonkay	AkaFlash	Kill	Railgun	1	880	56
+KungFuMonkay	AkaFlash	Kill	Railgun	1	883	56
+KungFuDazza	KungFuMonkay	Kill	Railgun	1	895	4
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	20:17:04
+		LogDeathFlags	17428
+		Map	The Edge
+		GameStart			0
+		PlayerConnect	KungFuDazza		0
+		PlayerConnect	KungFuMonkay		1
+		PlayerConnect	AkaFlash		2
+KungFuDazza	AkaFlash	Kill	Rocket Launcher	1	51	4
+KungFuMonkay	AkaFlash	Kill	Rocket Launcher	1	66	57
+KungFuDazza	AkaFlash	Kill	Rocket Launcher	1	84	5
+KungFuMonkay	KungFuDazza	Kill	Rocket Launcher	1	88	58
+		PlayerLeft	KungFuDazza		97
+KungFuMonkay	AkaFlash	Kill	Super Shotgun	1	144	56
+AkaFlash	KungFuMonkay	Kill	Rocket Launcher	1	157	3
+AkaFlash	KungFuMonkay	Kill	Rocket Launcher	1	162	3
+KungFuMonkay	AkaFlash	Kill	HyperBlaster	1	207	56
+KungFuMonkay	AkaFlash	Kill	Rocket Launcher	1	260	56
+KungFuMonkay	AkaFlash	Kill	Rocket Launcher	1	277	56
+		PlayerConnect	KungFuDazza		278
+KungFuMonkay	AkaFlash	Kill	Machinegun	1	285	55
+AkaFlash		Suicide	Grenades	-1	301	3
+AkaFlash	KungFuDazza	Kill	Grenades	1	301	3
+KungFuMonkay	KungFuDazza	Kill	Super Shotgun	1	306	56
+KungFuDazza	AkaFlash	Kill	Railgun	1	338	5
+KungFuMonkay	KungFuDazza	Kill	Super Shotgun	1	353	55
+KungFuMonkay	KungFuDazza	Kill	Super Shotgun	1	373	57
+KungFuMonkay	AkaFlash	Kill	Super Shotgun	1	390	54
+KungFuMonkay	AkaFlash	Kill	Super Shotgun	1	406	58
+KungFuMonkay	KungFuDazza	Kill	Super Shotgun	1	423	58
+KungFuDazza	KungFuMonkay	Kill	Railgun	1	460	3
+KungFuDazza	KungFuMonkay	Kill	Railgun	1	479	4
+AkaFlash	KungFuDazza	Kill	Rocket Launcher	1	498	4
+AkaFlash	KungFuMonkay	Kill	Railgun	1	547	4
+KungFuMonkay	AkaFlash	Kill	Rocket Launcher	1	548	57
+		PlayerLeft	KungFuMonkay		843
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	20:32:40
+		LogDeathFlags	17428
+		Map	The Frag Pipe
+		GameStart			0
+		PlayerConnect	KungFuDazza		0
+		PlayerConnect	AkaFlash		1
+		PlayerConnect	KungFuMonkay		111
+		PlayerLeft	AkaFlash		241
+KungFuMonkay	KungFuDazza	Kill	Super Shotgun	1	288	54
+KungFuMonkay	KungFuDazza	Kill	Grenades	1	318	56
+		PlayerConnect	KungFuDazza		385
+		PlayerConnect	KungFuDazza		390
+KungFuDazza	KungFuDazza	Kill	Blaster	1	412	4
+KungFuDazza	KungFuMonkay	Kill	Super Shotgun	1	437	5
+KungFuDazza	KungFuDazza	Kill	Super Shotgun	1	442	5
+KungFuDazza	KungFuMonkay	Kill	Super Shotgun	1	444	5
+		PlayerLeft	KungFuDazza		461
+KungFuMonkay		Suicide	Crushed	-1	471	56
+KungFuDazza	KungFuMonkay	Kill	Super Shotgun	1	486	5
+KungFuDazza	KungFuMonkay	Kill	Super Shotgun	1	495	4
+KungFuDazza	KungFuMonkay	Kill	Super Shotgun	1	508	4
+KungFuMonkay	KungFuDazza	Kill	Super Shotgun	1	526	59
+KungFuDazza	KungFuMonkay	Kill	HyperBlaster	1	561	3
+KungFuDazza	KungFuMonkay	Kill	Rocket Launcher	1	583	3
+KungFuDazza	KungFuMonkay	Kill	Super Shotgun	1	607	4
+		PlayerRename	KungFuDazza	akaflash	628
+akaflash		Suicide	Lava	-1	656	3
+KungFuDazza	KungFuMonkay	Kill	Super Shotgun	1	667	4
+KungFuDazza	akaflash	Kill	Super Shotgun	1	672	4
+KungFuDazza	KungFuMonkay	Kill	Rocket Launcher	1	685	4
+KungFuDazza	akaflash	Kill	Rocket Launcher	1	699	5
+KungFuMonkay	KungFuDazza	Kill	Railgun	1	741	56
+KungFuDazza	akaflash	Kill	Blaster	1	750	4
+akaflash	KungFuMonkay	Kill	Super Shotgun	1	759	2
+akaflash		Suicide	Lava	-1	762	2
+KungFuMonkay	akaflash	Kill	HyperBlaster	1	775	58
+akaflash		Suicide	Rocket Launcher	-1	801	3
+KungFuMonkay	akaflash	Kill	Railgun	1	830	57
+KungFuMonkay	akaflash	Kill	Railgun	1	839	55
+KungFuMonkay	akaflash	Kill	Railgun	1	848	56
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	20:47:56
+		LogDeathFlags	17428
+		Map	Lost Hallways
+		GameStart			0
+		PlayerConnect	KungFuDazza		0
+		PlayerConnect	KungFuMonkay		1
+		PlayerConnect	akaflash		2
+akaflash	KungFuMonkay	Kill	Super Shotgun	1	25	2
+KungFuMonkay	akaflash	Kill	BFG10K	1	207	54
+		PlayerLeft	KungFuDazza		228
+KungFuMonkay	akaflash	Kill	BFG10K	1	230	60
+		PlayerConnect	KungFuDazza		234
+KungFuDazza	akaflash	Kill	Machinegun	1	241	4
+KungFuDazza	KungFuMonkay	Kill	Super Shotgun	1	290	5
+KungFuMonkay	akaflash	Kill	Machinegun	1	315	53
+KungFuDazza	KungFuMonkay	Kill	Super Shotgun	1	328	5
+KungFuDazza	akaflash	Kill	Super Shotgun	1	373	6
+KungFuDazza	akaflash	Kill	Super Shotgun	1	379	5
+KungFuMonkay	akaflash	Kill	Machinegun	1	422	58
+KungFuMonkay	KungFuDazza	Kill	Machinegun	1	427	58
+akaflash	KungFuMonkay	Kill	Super Shotgun	1	453	3
+akaflash		Suicide	Lava	-1	455	3
+akaflash	KungFuDazza	Kill	BFG10K	1	529	4
+akaflash	KungFuMonkay	Kill	Super Shotgun	1	590	3
+KungFuMonkay	akaflash	Kill	Machinegun	1	605	57
+KungFuMonkay		Suicide	Lava	-1	619	52
+KungFuMonkay		Suicide	Lava	-1	626	58
+akaflash	KungFuMonkay	Kill	BFG10K	1	658	3
+akaflash	KungFuMonkay	Kill	BFG10K	1	664	3
+KungFuDazza	KungFuMonkay	Kill	Super Shotgun	1	736	5
+akaflash	KungFuDazza	Kill	Railgun	1	752	3
+akaflash	KungFuMonkay	Kill	Railgun	1	759	3
+KungFuDazza	akaflash	Kill	Chaingun	1	777	5
+KungFuDazza	KungFuMonkay	Kill	Chaingun	1	787	3
+KungFuDazza	akaflash	Kill	Super Shotgun	1	807	5
+KungFuMonkay	KungFuDazza	Kill	Chaingun	1	833	60
+akaflash		Suicide	Lava	-1	868	3
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	21:03:14
+		LogDeathFlags	17428
+		Map	WareHouse
+		GameStart			0
+		PlayerConnect	KungFuDazza		0
+		PlayerConnect	KungFuMonkay		1
+		PlayerConnect	akaflash		1
+akaflash	KungFuMonkay	Kill	Machinegun	1	45	2
+akaflash	KungFuDazza	Kill	Machinegun	1	48	3
+akaflash	KungFuDazza	Kill	Railgun	1	65	4
+KungFuDazza	KungFuMonkay	Kill	Railgun	1	103	4
+KungFuMonkay	KungFuDazza	Kill	HyperBlaster	1	104	58
+KungFuMonkay	KungFuDazza	Kill	Chaingun	1	136	56
+KungFuDazza	KungFuMonkay	Kill	BFG10K	1	160	4
+KungFuDazza		Suicide	BFG10K	-1	160	4
+akaflash	KungFuDazza	Kill	Railgun	1	211	2
+KungFuMonkay	akaflash	Kill	Rocket Launcher	1	219	59
+KungFuDazza	akaflash	Kill	Railgun	1	231	5
+KungFuDazza	KungFuMonkay	Kill	Railgun	1	244	4
+KungFuDazza	akaflash	Kill	Railgun	1	253	5
+akaflash	KungFuMonkay	Kill	HyperBlaster	1	316	3
+KungFuDazza	akaflash	Kill	Railgun	1	323	4
+KungFuDazza	akaflash	Kill	Railgun	1	331	3
+KungFuDazza	KungFuMonkay	Kill	Railgun	1	341	5
+KungFuDazza	KungFuMonkay	Kill	Railgun	1	350	4
+KungFuDazza	akaflash	Kill	Railgun	1	361	4
+KungFuDazza	akaflash	Kill	Railgun	1	381	5
+KungFuDazza	KungFuMonkay	Kill	Railgun	1	407	2
+KungFuDazza	KungFuMonkay	Kill	Railgun	1	423	4
+KungFuMonkay	akaflash	Kill	Machinegun	1	477	60
+KungFuDazza	akaflash	Kill	Railgun	1	503	4
+KungFuDazza	KungFuMonkay	Kill	Railgun	1	516	4
+KungFuMonkay	KungFuDazza	Kill	Chaingun	1	588	57
+KungFuMonkay	KungFuDazza	Kill	Chaingun	1	603	56
+akaflash	KungFuMonkay	Kill	Chaingun	1	611	3
+akaflash	KungFuMonkay	Kill	Railgun	1	675	4
+KungFuDazza	KungFuMonkay	Kill	Chaingun	1	732	5
+KungFuDazza	akaflash	Kill	Chaingun	1	737	4
+KungFuMonkay	akaflash	Kill	Machinegun	1	752	59
+KungFuDazza	KungFuMonkay	Kill	Chaingun	1	762	4
+KungFuDazza	KungFuMonkay	Kill	Chaingun	1	774	5
+KungFuDazza	KungFuMonkay	Kill	Railgun	1	873	4
+KungFuMonkay	akaflash	Kill	Machinegun	1	885	57
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	21:18:30
+		LogDeathFlags	17428
+		Map	The Slimy Place
+		GameStart			0
+		PlayerConnect	KungFuDazza		0
+		PlayerConnect	KungFuMonkay		0
+		PlayerConnect	akaflash		1
+KungFuDazza	KungFuMonkay	Kill	Machinegun	1	22	4
+KungFuDazza	KungFuMonkay	Kill	Machinegun	1	50	4
+KungFuMonkay	akaflash	Kill	Rocket Launcher	1	52	55
+KungFuMonkay	KungFuDazza	Kill	Rocket Launcher	1	60	52
+KungFuMonkay		Suicide	Rocket Launcher	-1	60	52
+akaflash	KungFuDazza	Kill	HyperBlaster	1	66	5
+KungFuDazza	akaflash	Kill	Rocket Launcher	1	73	5
+KungFuDazza	akaflash	Kill	Rocket Launcher	1	99	4
+KungFuMonkay	KungFuDazza	Kill	Rocket Launcher	1	101	58
+akaflash	KungFuMonkay	Kill	Grenade Launcher	1	120	4
+akaflash	KungFuDazza	Kill	Grenade Launcher	1	126	4
+KungFuDazza	akaflash	Kill	Super Shotgun	1	138	5
+akaflash	KungFuMonkay	Kill	Rocket Launcher	1	155	3
+KungFuMonkay	akaflash	Kill	Super Shotgun	1	168	54
+akaflash		Suicide	Melted	-1	182	4
+KungFuMonkay		Suicide	Rocket Launcher	-1	191	53
+KungFuDazza	KungFuMonkay	Kill	Super Shotgun	1	208	4
+akaflash	KungFuMonkay	Kill	Rocket Launcher	1	214	4
+KungFuDazza	akaflash	Kill	Super Shotgun	1	216	4
+KungFuDazza	KungFuMonkay	Kill	Grenade Launcher	1	248	3
+KungFuMonkay	KungFuDazza	Kill	Rocket Launcher	1	248	57
+KungFuMonkay	akaflash	Kill	Rocket Launcher	1	263	58
+KungFuDazza	KungFuMonkay	Kill	Grenade Launcher	1	265	4
+KungFuDazza	KungFuMonkay	Kill	Rocket Launcher	1	290	4
+akaflash	KungFuDazza	Kill	Super Shotgun	1	319	3
+KungFuMonkay	KungFuDazza	Kill	Rocket Launcher	1	332	57
+KungFuDazza	akaflash	Kill	HyperBlaster	1	346	5
+KungFuDazza	KungFuMonkay	Kill	HyperBlaster	1	361	4
+KungFuMonkay	akaflash	Kill	Rocket Launcher	1	389	55
+KungFuDazza	akaflash	Kill	HyperBlaster	1	394	4
+KungFuMonkay	KungFuDazza	Kill	Rocket Launcher	1	397	54
+KungFuMonkay	KungFuDazza	Kill	Rocket Launcher	1	400	54
+KungFuDazza	KungFuMonkay	Kill	HyperBlaster	1	412	5
+akaflash	KungFuMonkay	Kill	Grenade Launcher	1	436	4
+akaflash		Suicide	Melted	-1	452	3
+KungFuMonkay	KungFuDazza	Kill	Rocket Launcher	1	467	54
+KungFuMonkay	KungFuDazza	Kill	Rocket Launcher	1	483	60
+akaflash	KungFuDazza	Kill	Super Shotgun	1	502	3
+KungFuDazza	KungFuMonkay	Kill	Super Shotgun	1	509	7
+KungFuDazza	KungFuMonkay	Kill	Super Shotgun	1	524	4
+KungFuDazza	KungFuMonkay	Kill	Super Shotgun	1	532	4
+akaflash	KungFuMonkay	Kill	Super Shotgun	1	553	3
+akaflash	KungFuDazza	Kill	HyperBlaster	1	560	3
+KungFuMonkay		Suicide	Melted	-1	566	59
+KungFuMonkay	akaflash	Kill	HyperBlaster	1	575	56
+KungFuDazza	KungFuMonkay	Kill	Rocket Launcher	1	594	4
+KungFuDazza	akaflash	Kill	Rocket Launcher	1	595	4
+KungFuDazza	KungFuMonkay	Kill	Rocket Launcher	1	608	4
+KungFuDazza	akaflash	Kill	Rocket Launcher	1	611	4
+KungFuDazza	KungFuMonkay	Kill	Super Shotgun	1	617	4
+KungFuDazza		Suicide	Melted	-1	617	4
+akaflash	KungFuMonkay	Kill	Machinegun	1	653	3
+akaflash		Suicide	Melted	-1	655	3
+KungFuMonkay	akaflash	Kill	HyperBlaster	1	662	59
+KungFuDazza	akaflash	Kill	Rocket Launcher	1	675	4
+KungFuDazza	KungFuMonkay	Kill	Rocket Launcher	1	677	5
+KungFuDazza	KungFuMonkay	Kill	Rocket Launcher	1	685	4
+akaflash	KungFuDazza	Kill	Grenade Launcher	1	691	4
+KungFuDazza	KungFuMonkay	Kill	Rocket Launcher	1	691	4
+akaflash		Suicide	Melted	-1	703	3
+KungFuMonkay	akaflash	Kill	Rocket Launcher	1	708	58
+KungFuMonkay	akaflash	Kill	Rocket Launcher	1	717	59
+KungFuMonkay	akaflash	Kill	Rocket Launcher	1	735	57
+KungFuDazza	akaflash	Kill	Rocket Launcher	1	761	6
+KungFuDazza	akaflash	Kill	Rocket Launcher	1	770	4
+KungFuDazza	KungFuMonkay	Kill	HyperBlaster	1	786	5
+KungFuDazza	akaflash	Kill	HyperBlaster	1	798	4
+KungFuDazza	akaflash	Kill	HyperBlaster	1	800	4
+KungFuMonkay	akaflash	Kill	Rocket Launcher	1	810	59
+KungFuDazza	KungFuMonkay	Kill	HyperBlaster	1	816	4
+akaflash		Suicide	Melted	-1	823	3
+KungFuDazza	KungFuMonkay	Kill	Machinegun	1	826	4
+KungFuMonkay	akaflash	Kill	Rocket Launcher	1	832	56
+KungFuMonkay	KungFuDazza	Kill	Rocket Launcher	1	843	57
+KungFuDazza	akaflash	Kill	HyperBlaster	1	854	4
+KungFuDazza	KungFuMonkay	Kill	HyperBlaster	1	864	4
+KungFuDazza	akaflash	Kill	Grenades	1	884	4
+KungFuMonkay		Suicide	Melted	-1	895	56
+akaflash	KungFuMonkay	Kill	Rocket Launcher	1	899	3
+		GameEnd			900
+		StdLog	1.2
+		PatchName	OSP Tourney DM
+		LogDate	03 Dec 2008
+		LogTime	21:33:46
+		LogDeathFlags	17428
+		Map	Lava Tomb
+		GameStart			0
+		PlayerConnect	KungFuDazza		0
+		PlayerConnect	akaflash		1
+		PlayerConnect	KungFuMonkay		1
+		PlayerLeft	KungFuMonkay		60
+		PlayerLeft	KungFuDazza		64
+		PlayerLeft	akaflash		73
