@@ -1,7 +1,10 @@
 <?php 
 $playername = str_replace('%7B','{',str_replace('%7D','}',str_replace('-',' ',str_replace('.html','',$pathparams[1]))));  
-?>
-<h3><?php _gravatar($playername);echo $playername; ?></h3>
+     $goodmedals = _dbquery ("SELECT rank,stat FROM stats WHERE playername = '".$playername."' AND rank < 4 AND figure > 0 AND points > 0 and good = 1 order by rank",MYSQL_ASSOC);
+     $badmedals = _dbquery ("SELECT rank,stat FROM stats WHERE playername = '".$playername."' AND rank < 4 AND figure > 0 AND points != 0 and good = 0 order by rank",MYSQL_ASSOC); ?>
+<h3><?php _gravatar($playername);echo $playername; ?>                
+<?php if ($goodmedals) { foreach ($goodmedals as $medal) { _medal_img_link($medal['stat'],$medal['rank']); } }?>&nbsp;
+<?php if ($badmedals) { foreach ($badmedals as $medal) { _medal_img_link($medal['stat'],$medal['rank'],'bad'); } }?></h3>
 
 <table class=main-stats>
     <thead>

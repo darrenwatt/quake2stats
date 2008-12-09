@@ -24,6 +24,20 @@ $allawards = _dbquery("SELECT DISTINCT stat FROM stats WHERE points !=0",MYSQL_A
         </tr> 
      <?php } ?>
      </table>
+    <?php
+     $allawards = _dbquery("SELECT * FROM stats WHERE rank < 4 AND rank > 0 AND points != 0 AND good = 0 ORDER by points,rank DESC;",MYSQL_ASSOC); 
+    ?>
+    <table width="100%" class="sortable main-stats">
+    <thead><tr><th>Medal</th><th>Player Name</th><th>Award</th><th>Bonus</th></tr></thead>
+     <?php foreach (  $allawards as $award ) {?>
+        <tr>
+           <td class=rank><?php echo _ordinalize($award['rank']) ?></td>  
+            <td class=name><?php _html_link('Player',$award['playername']) ?></td> 
+           <td class=weapon><?php _html_link('Awards',$award['stat']) ?></td>
+           <td class=kills><?php _outputstat($award['points']) ?></td> 
+        </tr> 
+     <?php } ?>
+     </table>
 <?php } else { // specific awards
 $award = str_replace('.html','',str_replace('-',' ',$pathparams[1]));
 $awards = _dbquery("SELECT * FROM stats where stat = '".$award."' AND points !=0 ORDER by rank",MYSQL_ASSOC);
