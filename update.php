@@ -17,12 +17,12 @@ $scores = array (
         'total Railgun kills' =>            array ( '1' => 5, '2' => 2, '3' => 1 ),
         'total BFG10K kills' =>             array ( '1' => 5, '2' => 2, '3' => 1 ),
         'total Hand Grenade kills' =>       array ( '1' => 25, '2' => 15, '3' => 7 ),
-        'total Telefrag kills' =>           array ( '1' => 50, '2' => 30, '3' => 15 ),
-        'total Grappling Hook kills' =>     array ( '1' => 50, '2' => 30, '3' => 15 ),
-        'total suicides' =>                 array ( '1' => -50, '2' => -30, '3' => -15 ),
-        'total kills' =>                    array ( '1' => 25, '2' => 15, '3' => 7 ),  
-        'kill:death ratio' =>               array ( '1' => 25, '2' => 15, '3' => 7 ),
-        'Killstreak' =>                     array ( '1' => 25, '2' => 15, '3' => 7),
+        'total Telefrag kills' =>           array ( '1' => 10, '2' => 7, '3' => 4 ),
+        'total Grappling Hook kills' =>     array ( '1' => 10, '2' => 7, '3' => 4 ),
+        'total suicides' =>                 array ( '1' => -10, '2' => -7, '3' => -4 ),
+        'total kills' =>                    array ( '1' => 10, '2' => 7, '3' => 4 ),   
+        'kill:death ratio' =>               array ( '1' => 10, '2' => 7, '3' => 4 ),  
+        'Killstreak' =>                     array ( '1' => 10, '2' => 7, '3' => 4 ),  
         'Deathstreak' =>                    array ( '1' => -25, '2' => -15, '3' => -7 ),
         );
 
