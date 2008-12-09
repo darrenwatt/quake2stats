@@ -20,26 +20,48 @@ function _calc_score($kills,$suicides,$deaths,$bonus)
 
   function _ordinalize($number,$type="medal") {
       if ($type == "rank") { $icon = 'award_star'; }   else {  $icon = 'medal'; } 
-    if (in_array(($number % 100),range(11,13))){
-        
-        
-        return $number.'th';
-        }else{
-        switch (($number % 10)) {
-        case 1:
-        return $number.'<sup>st</sup><img src="'.PATH.'images/icons/'.$icon.'_gold_2.png">';
-        break;
-        case 2:
-        return $number.'<sup>nd</sup><img src="'.PATH.'images/icons/'.$icon.'_silver_2.png">';
-        break;
-        case 3:
-        return $number.'<sup>rd</sup><img src="'.PATH.'images/icons/'.$icon.'_bronze_2.png">';
-        default:
-        return $number.'<sup>th</sup>';
-        break;
+        if (in_array(($number % 100),range(11,13))){
+            
+            
+            return $number.'th';
+            }else{
+            switch (($number % 10)) {
+            case 1:
+            return $number.'<sup>st</sup><img src="'.PATH.'images/icons/'.$icon.'_gold_2.png">';
+            break;
+            case 2:
+            return $number.'<sup>nd</sup><img src="'.PATH.'images/icons/'.$icon.'_silver_2.png">';
+            break;
+            case 3:
+            return $number.'<sup>rd</sup><img src="'.PATH.'images/icons/'.$icon.'_bronze_2.png">';
+            default:
+            return $number.'<sup>th</sup>';
+            break;
+            }
         }
     }
-}
+  function _ordinalizebad($number,$type="medal") {
+      if ($type == "rank") { $icon = 'award_star'; }   else {  $icon = 'medal'; } 
+        if (in_array(($number % 100),range(11,13))){
+            
+            
+            return $number.'th';
+            }else{
+            switch (($number % 10)) {
+            case 1:
+            return $number.'<sup>st</sup><img src="'.PATH.'images/icons/'.$icon.'_gold_1.png">';
+            break;
+            case 2:
+            return $number.'<sup>nd</sup><img src="'.PATH.'images/icons/'.$icon.'_silver_1.png">';
+            break;
+            case 3:
+            return $number.'<sup>rd</sup><img src="'.PATH.'images/icons/'.$icon.'_bronze_1.png">';
+            default:
+            return $number.'<sup>th</sup>';
+            break;
+            }
+        }
+    }
 function _medal_img_link($stat,$rank,$type="good")
     {
     switch ($type)

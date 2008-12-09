@@ -29,8 +29,9 @@ $playername = str_replace('%7B','{',str_replace('%7D','}',str_replace('-',' ',st
         <table class="sortable main-stats">
         <thead><tr><th>Medal</th><th>Awards</th><th>Bonus</th></tr></thead>
             <?php foreach ( $player_stats[$playername]['awards'] as $award ) { ?>
+            
             <tr>
-               <td class=rank><?php echo _ordinalize($award['rank']) ?></td> 
+               <td class=rank><?php if ($award['points']< 0) { echo _ordinalizebad($award['rank']); } else { echo _ordinalize($award['rank']);} ?></td> 
                <td class=name><?php _html_link('Awards',$award['name']) ?></td>
                <td class=kills><?php _outputstat($award['points']) ?></td> 
             </tr>
