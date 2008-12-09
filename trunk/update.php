@@ -22,6 +22,8 @@ $scores = array (
         'total suicides' =>                 array ( '1' => -50, '2' => -30, '3' => -15 ),
         'total kills' =>                    array ( '1' => 25, '2' => 15, '3' => 7 ),  
         'kill:death ratio' =>               array ( '1' => 25, '2' => 15, '3' => 7 ),
+        'Killstreak' =>                     array ( '1' => 25, '2' => 15, '3' => 7),
+        'Deathstreak' =>                    array ( '1' => -25, '2' => -15, '3' => -7 ),
         );
 
 /*############ My SQL Functions  ###############*/
@@ -90,6 +92,7 @@ $handle = fopen($filename, "r");
 $lines = file($filename);
 fclose($handle);
 $i=0;$gameid=0;$added=0;
+_dbupdate ("TRUNCATE TABLE `log`");
 foreach ($lines as $line => $item)
     {
         $line++;
@@ -122,6 +125,20 @@ foreach ($lines as $line => $item)
              $addsql="INSERT INTO `".$db_database."`.`log` ( `id` , `gamedate` , `gametime` , `map` , `timeindex` , `action` , `who` , `target` ,  `weapon` )
              VALUES ( NULL , '".mysql_escape_string($databaseline[$i]['gamedate'])."', '".mysql_escape_string($databaseline[$i]['gametime'])."', '".mysql_escape_string($databaseline[$i]['map'])."', '".mysql_escape_string($databaseline[$i]['timeindex'])."', '".$databaseline[$i]['action']."', '".mysql_escape_string($databaseline[$i]['who'])."', '".mysql_escape_string($databaseline[$i]['target'])."', '".mysql_escape_string($databaseline[$i]['weapon'])."');  ";
            _dbupdate ($addsql);
+           $killstreak[$databaseline[$i]['who']]['name'] = $databaseline[$i]['who'];
+           $killstreak[$databaseline[$i]['who']]['current']++;  // add one to the current kill streak;
+           $killstreak[$databaseline[$i]['target']]['current']=0;  // reset the targets kill streak;
+           $deathstreak[$databaseline[$i]['target']]['name'] = $databaseline[$i]['target'];
+           $deathstreak[$databaseline[$i]['target']]['current']++;  // add one to the current death streak;
+           $deathstreak[$databaseline[$i]['who']]['current']=0;  // reset the targets death streak;           
+           if ($killstreak[$databaseline[$i]['who']]['current'] > $killstreak[$databaseline[$i]['who']]['highest'])
+                {
+                  $killstreak[$databaseline[$i]['who']]['highest'] = $killstreak[$databaseline[$i]['who']]['current'];  
+                }
+           if ($deathstreak[$databaseline[$i]['target']]['current'] > $deathstreak[$databaseline[$i]['target']]['highest'])
+                {
+                  $deathstreak[$databaseline[$i]['target']]['highest'] = $deathstreak[$databaseline[$i]['target']]['current'];  
+                }
             $added++;   
             } 
         break;
@@ -142,6 +159,7 @@ foreach ($lines as $line => $item)
             $addsql="INSERT INTO `".$db_database."`.`log` ( `id` , `gamedate` , `gametime` , `map` , `timeindex` , `action` , `who` , `target` ,  `weapon` )
             VALUES ( NULL , '".mysql_escape_string($databaseline[$i]['gamedate'])."', '".mysql_escape_string($databaseline[$i]['gametime'])."', '".mysql_escape_string($databaseline[$i]['map'])."', '".mysql_escape_string($databaseline[$i]['timeindex'])."', '".$databaseline[$i]['action']."', '".mysql_escape_string($databaseline[$i]['who'])."', '".mysql_escape_string($databaseline[$i]['target'])."', '".mysql_escape_string($databaseline[$i]['weapon'])."');  ";
             _dbupdate ($addsql);
+           $killstreak[$databaseline[$i]['who']]['current']=0;  // reset kill streak for suicides
             $added++;
             }
             
@@ -189,8 +207,19 @@ foreach ($statsallplayers as $player)
          _dbupdate("INSERT INTO `".$db_database."`.`stats` (`playername`, `stat`, `figure`, `good`) VALUES ( '".mysql_escape_string($player['who'])."','total ".$gun." kills','".$gunkills."', 1);");    
         }
     }
-
-
+// Kill streak
+foreach ($killstreak as $streak)
+    {
+        if ($streak['highest']) {
+     _dbupdate("INSERT INTO `".$db_database."`.`stats` (`playername`, `stat`, `figure`, `good`) VALUES ( '".mysql_escape_string($streak['name'])."','Killstreak','".$streak['highest']."', 1);");  
+        }    
+    }
+foreach ($deathstreak as $streak)
+    {
+        if ($streak['highest']) {
+     _dbupdate("INSERT INTO `".$db_database."`.`stats` (`playername`, `stat`, `figure`, `good`) VALUES ( '".mysql_escape_string($streak['name'])."','Deathstreak','".$streak['highest']."', 0);");  
+        }    
+    }
 // Go through stats and apply ranks and bonus points   
 $alltypesofstat = _dbquery("SELECT DISTINCT stat from stats",MYSQL_ASSOC);
 foreach ($alltypesofstat as $thing)
@@ -216,3 +245,18 @@ foreach ($statsallplayers as $player)
     }
 
 ?>Stats updated
+
+<?php // add scores into db show you can show what gets scored what
+/*_dbupdate("DELETE FROM `scores`"); // remove previous scores
+foreach ($scores as $score)
+    {
+         _dbupdate ("INSERT INTO `q2stats`.`scores` (`award` ,`place` ,`points`) VALUES ('".key($score)."', '".key($point)."', '".$point."');");   
+
+     
+        
+    }*/
+ ?>
+      <pre>
+ <?php   print_r($killstreak); 
+ print_r($deathstreak);
+ ?></pre>
