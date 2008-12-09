@@ -1,26 +1,62 @@
 <?php
 require ('thirdparty/gchart2/gChart2.php');
+function _page_name($pathparams,$output=true)
+    {
+     if ($pathparams[1] && $pathparams[1] != 'index.html') 
+        { 
+            $pagename =  $pathparams[0]." for ".str_replace('.html','',str_replace('-',' ',$pathparams[1])); 
+        } else { 
+            $pagename = "All ".$pathparams[0]; 
+        }    
+     echo  $pagename;
+    }
+    
+function _calc_score($kills,$suicides,$deaths,$bonus)
+    {
+     $score = ($kills - $suicides) + $bonus;
+     return($score);   
+    }
 
 
-function _ordinalize($number) {
+  function _ordinalize($number,$type="medal") {
     if (in_array(($number % 100),range(11,13))){
+         $icon = 'medal'; 
+        if ($type == "rank") { $icon = 'award_star'; } 
         return $number.'th';
         }else{
         switch (($number % 10)) {
         case 1:
-        return $number.'<sup>st</sup><img src="'.PATH.'images/icons/award_star_gold_1.png">';
+        return $number.'<sup>st</sup><img src="'.PATH.'images/icons/'.$icon.'_gold_1.png">';
         break;
         case 2:
-        return $number.'<sup>nd</sup><img src="'.PATH.'images/icons/award_star_silver_1.png">';
+        return $number.'<sup>nd</sup><img src="'.PATH.'images/icons/'.$icon.'_silver_1.png">';
         break;
         case 3:
-        return $number.'<sup>rd</sup><img src="'.PATH.'images/icons/award_star_bronze_1.png">';
+        return $number.'<sup>rd</sup><img src="'.PATH.'images/icons/'.$icon.'_bronze_1.png">';
         default:
         return $number.'<sup>th</sup>';
         break;
         }
     }
 }
+function _medal_img_link($stat,$rank)
+    {
+    switch ($rank) {
+        case 1:
+        $image = '<img src="'.PATH.'images/icons/medal_gold_1.png">'; 
+        break;
+        case 2:
+        $image = '<img src="'.PATH.'images/icons/medal_silver_1.png">'; 
+        break;
+        case 3:
+        $image = '<img src="'.PATH.'images/icons/medal_bronze_1.png">';
+        break;
+        default:
+        echo 'error rank '.$rank.' should not be passed';
+        break; 
+    }       
+     echo "<a href='".PATH."Awards/".str_replace(' ','-',$stat).".html'>".$image."</a>";   
+    }
 
 function _html_link ($type,$pagename="index")
     {
