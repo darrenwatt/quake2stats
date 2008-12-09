@@ -8,45 +8,49 @@ $playername = str_replace('%7B','{',str_replace('%7D','}',str_replace('-',' ',st
     <tr><th>Score</th><th>Kills</th><th>Deaths</th><th>Suicides</th><th>K:D</th></tr>
     </thead>
     <tr>
-        <td><?php echo $player_stats[$playername]['score'];?></td>
-        <td><?php echo $player_stats[$playername]['total kills']['figure'];?></td>
-        <td><?php echo $player_stats[$playername]['total deaths']['figure'];?></td> 
-        <td><?php echo $player_stats[$playername]['total suicides']['figure'];?></td> 
-        <td><?php echo $player_stats[$playername]['k2d']['figure']/10 ;?></td>
+        <td class=kills><?php echo $player_stats[$playername]['total score']['figure'];?></td>
+        <td class=kills><?php echo $player_stats[$playername]['total kills']['figure'];?></td>
+        <td class=kills><?php echo $player_stats[$playername]['total deaths']['figure'];?></td> 
+        <td class=kills><?php echo $player_stats[$playername]['total suicides']['figure'];?></td> 
+        <td class=kills><?php echo $player_stats[$playername]['kill:death ratio']['figure']/10 ;?></td>
     </tr>
-</table>     
+</table>
+<?php if ($player_stats[$playername]['action']) { ?>     
 <table class="sortable main-stats">
     <thead>
     <tr><th>Player name</th><th>Killed</th><th>Killed By</th></tr>
     </thead>
     <?php foreach ( $player_stats[$playername]['action'] as $otherplayer ) { ?>
     <tr>
-        <td><?php _html_link('Player',$otherplayer['name']);?></td>
-        <td><?php _outputstat($otherplayer['killed']);?></td> 
-        <td><?php _outputstat($otherplayer['killedby']);?></td> 
+        <td class=name><?php _html_link('Player',$otherplayer['name']);?></td>
+        <td class=kills><?php _outputstat($otherplayer['killed']);?></td> 
+        <td class=kills><?php _outputstat($otherplayer['killedby']);?></td> 
     </tr>
     <?php } ?>
 </table>
+<?php } ?>
+<?php if($player_stats[$playername]['map']) { ?>
 <table class="sortable main-stats">
 
     <thead><tr><th>Map name</th><th>Kills</th><th>Deaths</th><th>Suicides</th></tr></thead>
     <?php foreach ( $player_stats[$playername]['map'] as $maps ) { ?>
     <tr>
-        <td><?php _html_link('Map',$maps['name']) ?></td>
-        <td><?php _outputstat($maps['kills']) ?></td> 
-        <td><?php _outputstat($maps['deaths']) ?></td> 
-        <td><?php _outputstat($maps['suicides']) ?></td> 
+        <td class=name><?php _html_link('Map',$maps['name']) ?></td>
+        <td class=kills><?php _outputstat($maps['kills']) ?></td> 
+        <td class=kills><?php _outputstat($maps['deaths']) ?></td> 
+        <td class=kills><?php _outputstat($maps['suicides']) ?></td> 
     </tr>
     <?php } ?>
 </table>
+<?php } ?>
 <?php if ( $player_stats[$playername]['awards']) {   ?>
         <table class="sortable main-stats">
-        <thead><tr><th>Award</th><th>Medal</th><th>Bonus</th></tr></thead>
+        <thead><tr><th>Medal</th><th>Awards</th><th>Bonus</th></tr></thead>
             <?php foreach ( $player_stats[$playername]['awards'] as $award ) { ?>
             <tr>
-               <td><?php _html_link('award',$award['name']) ?></td>
-               <td><?php echo _ordinalize($award['rank']) ?></td> 
-               <td><?php _outputstat($award['points']) ?></td> 
+               <td class=rank><?php echo _ordinalize($award['rank']) ?></td> 
+               <td class=name><?php _html_link('Awards',$award['name']) ?></td>
+               <td class=kills><?php _outputstat($award['points']) ?></td> 
             </tr>
             <?php } ?>
         </table>

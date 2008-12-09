@@ -1,5 +1,5 @@
 <?php
-$filename = 'g:\wamp\www\q2stats\new-stats1.log';
+$filename = 'g:\wamp\www\q2stats\test.log';
 $db_user = "root"; // Username
 $db_pass = ""; // Password
 $db_database = "q2stats"; // Database Name
@@ -164,28 +164,28 @@ foreach ($statsallplayers as $player)
      $kills = _dbquery("SELECT action, COUNT(*) FROM log WHERE who = '".$player['who']."' AND action = 'Kill' GROUP BY action  ORDER BY COUNT(*) DESC",MYSQL_ASSOC);
      $kills = $kills[0]['COUNT(*)']+1;
      $kills = $kills -1; // stupid thing to make null entries 0 not null
-     _dbupdate("INSERT INTO `".$db_database."`.`stats` (`playername`, `stat`, `figure`) VALUES ( '".mysql_escape_string($player['who'])."','total kills','".$kills."');");
+     _dbupdate("INSERT INTO `".$db_database."`.`stats` (`playername`, `stat`, `figure`,`good`) VALUES ( '".mysql_escape_string($player['who'])."','total kills','".$kills."','1');");
      $killsforscore[$player['who']] = $kills;
      $suicides = _dbquery("SELECT action, COUNT(*) FROM log WHERE who = '".$player['who']."' AND action = 'Suicide' GROUP BY action  ORDER BY COUNT(*) DESC",MYSQL_ASSOC);
      $suicides   = $suicides[0]['COUNT(*)']+1;
      $suicides   = $suicides -1;
-     _dbupdate("INSERT INTO `".$db_database."`.`stats` (`playername`, `stat`, `figure`) VALUES ( '".mysql_escape_string($player['who'])."','total suicides','".$suicides."');");
+     _dbupdate("INSERT INTO `".$db_database."`.`stats` (`playername`, `stat`, `figure`, `good`) VALUES ( '".mysql_escape_string($player['who'])."','total suicides','".$suicides."','0');");
      $suicidesforscore[$player['who']]= $suicides;
      
      
      $deaths = _dbquery("SELECT action, COUNT(*) FROM log WHERE target = '".$player['who']."' GROUP BY action",MYSQL_ASSOC);
      $deaths = $deaths[0]['COUNT(*)']+1;
      $deaths = $deaths -1;
-     _dbupdate("INSERT INTO `".$db_database."`.`stats` (`playername`, `stat`, `figure`) VALUES ( '".mysql_escape_string($player['who'])."','total deaths','".$deaths."');");
+     _dbupdate("INSERT INTO `".$db_database."`.`stats` (`playername`, `stat`, `figure`,`good`) VALUES ( '".mysql_escape_string($player['who'])."','total deaths','".$deaths."','0');");
      if ($deaths > 0) { $k2d =  round($kills/$deaths,1)*10; } else { $k2d = 0; }
-     _dbupdate("INSERT INTO `".$db_database."`.`stats` (`playername`, `stat`, `figure`) VALUES ( '".mysql_escape_string($player['who'])."','k2d','".$k2d."');");
+     _dbupdate("INSERT INTO `".$db_database."`.`stats` (`playername`, `stat`, `figure`, `good`) VALUES ( '".mysql_escape_string($player['who'])."','k2d','".$k2d."', NULL);");
      
      foreach ($guns as $gun)
         {
          $gunkills = _dbquery("SELECT action, COUNT(*) FROM log WHERE who = '".$player['who']."' AND action = 'Kill' AND weapon = '".$gun."' GROUP BY action",MYSQL_ASSOC);
          $gunkills = $gunkills[0]['COUNT(*)']+1;
          $gunkills = $gunkills-1;
-         _dbupdate("INSERT INTO `".$db_database."`.`stats` (`playername`, `stat`, `figure`) VALUES ( '".mysql_escape_string($player['who'])."','total ".$gun." kills','".$gunkills."');");    
+         _dbupdate("INSERT INTO `".$db_database."`.`stats` (`playername`, `stat`, `figure`,`good`) VALUES ( '".mysql_escape_string($player['who'])."','total ".$gun." kills','".$gunkills."','1');");    
         }
     }
 

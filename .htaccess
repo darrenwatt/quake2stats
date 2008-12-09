@@ -2,10 +2,10 @@
 # BEGIN q2stats
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /q2stats_v0.2/
+RewriteBase /q2stats/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /q2stats_v0.2/index.php [L]
+RewriteRule . /q2stats/index.php [L]
 </IfModule>
 
 # END q2stats
