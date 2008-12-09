@@ -54,3 +54,4 @@ $playersrankedbyweapon = _dbquery("SELECT who, action, weapon, COUNT(*) FROM log
 
 
 <?php } ?>
+<small>note: To gain an award currently the minimum number of kills with each weapon is 5</small>

@@ -45,3 +45,6 @@ $awards = _dbquery("SELECT * FROM stats where stat = '".$award."' AND points !=0
     <?php } ?>  
     </table>
 <?php } ?>
+<small>note: To gain an award currently the minimum number of kills with each weapon is 5</small>
+
+<?php 

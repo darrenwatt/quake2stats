@@ -56,7 +56,7 @@ function _medal_img_link($stat,$rank)
         echo 'error rank '.$rank.' should not be passed';
         break; 
     }       
-     echo "<a href='".PATH."Awards/".str_replace(' ','-',$stat).".html'>".$image."</a>";   
+     echo "<a title='No. ".$rank." ".$stat."' href='".PATH."Awards/".str_replace(' ','-',$stat).".html'>".$image."</a>";   
     }
 
 function _html_link ($type,$pagename="index")
@@ -64,7 +64,14 @@ function _html_link ($type,$pagename="index")
     
     $pagefilename = str_replace(' ','-',$pagename).'.html';
     if ($pagename  == "index") { $pagename = $type; }
-    echo "<a href='".PATH."$type/$pagefilename'>$pagename</a>";        
+    if ($type == 'Player' && $pagename != 'index')
+        {
+         echo "<a href='".PATH."$type/$pagefilename'>";
+         _gravatar($pagename,20);  
+        echo " $pagename</a>";
+        } else {
+        echo "<a href='".PATH."$type/$pagefilename'>$pagename</a>";        
+        }
     }
  function _outputstat($item)
     {
@@ -72,7 +79,19 @@ function _html_link ($type,$pagename="index")
         { $item = '0'; }
       echo $item;  
     }
-
+function _gravatar($playername,$size=40)
+    {
+     $getemail = _dbquery ("SELECT email from knownusers WHERE playername = '".$playername."';",MYSQL_ASSOC);
+     if ($getemail)
+        { 
+         $email = $getemail['0']['email'];
+         $default = "http://tbn0.google.com/images?q=tbn:BlF8Wi0FqGr-ZM:http://media.giantbomb.com/uploads/0/36/253803-070907quake_ii_logo_tiny.jpg";
+         $grav_url = "http://www.gravatar.com/avatar.php?gravatar_id=".md5( strtolower($email) )."&default=".urlencode($default)."&size=".$size;
+         echo '<img src="'.$grav_url.'">';
+        }  else {
+        echo '<img src="'.PATH.'images/icons/q2logo.jpg">';
+        }  
+    }
 
 function array_search_recursive($needle, $haystack, $a=0, $nodes_temp=array()){
 global $nodes_found;
