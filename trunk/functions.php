@@ -19,9 +19,10 @@ function _calc_score($kills,$suicides,$deaths,$bonus)
 
 
   function _ordinalize($number,$type="medal") {
+      if ($type == "rank") { $icon = 'award_star'; }   else {  $icon = 'medal'; } 
     if (in_array(($number % 100),range(11,13))){
-         $icon = 'medal'; 
-        if ($type == "rank") { $icon = 'award_star'; } 
+        
+        
         return $number.'th';
         }else{
         switch (($number % 10)) {

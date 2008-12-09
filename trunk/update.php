@@ -21,6 +21,7 @@ $scores = array (
         'total Grappling Hook kills' =>     array ( '1' => 50, '2' => 30, '3' => 15 ),
         'total suicides' =>                 array ( '1' => -50, '2' => -30, '3' => -15 ),
         'total kills' =>                    array ( '1' => 25, '2' => 15, '3' => 7 ),  
+        'kill:death ratio' =>               array ( '1' => 25, '2' => 15, '3' => 7 ),
         );
 
 /*############ My SQL Functions  ###############*/
@@ -121,7 +122,7 @@ foreach ($lines as $line => $item)
              $addsql="INSERT INTO `".$db_database."`.`log` ( `id` , `gamedate` , `gametime` , `map` , `timeindex` , `action` , `who` , `target` ,  `weapon` )
              VALUES ( NULL , '".mysql_escape_string($databaseline[$i]['gamedate'])."', '".mysql_escape_string($databaseline[$i]['gametime'])."', '".mysql_escape_string($databaseline[$i]['map'])."', '".mysql_escape_string($databaseline[$i]['timeindex'])."', '".$databaseline[$i]['action']."', '".mysql_escape_string($databaseline[$i]['who'])."', '".mysql_escape_string($databaseline[$i]['target'])."', '".mysql_escape_string($databaseline[$i]['weapon'])."');  ";
            _dbupdate ($addsql);
-            $added++;
+            $added++;   
             } 
         break;
       case "Suicide":
@@ -164,33 +165,33 @@ foreach ($statsallplayers as $player)
      $kills = _dbquery("SELECT action, COUNT(*) FROM log WHERE who = '".$player['who']."' AND action = 'Kill' GROUP BY action  ORDER BY COUNT(*) DESC",MYSQL_ASSOC);
      $kills = $kills[0]['COUNT(*)']+1;
      $kills = $kills -1; // stupid thing to make null entries 0 not null
-     _dbupdate("INSERT INTO `".$db_database."`.`stats` (`playername`, `stat`, `figure`,`good`) VALUES ( '".mysql_escape_string($player['who'])."','total kills','".$kills."','1');");
+     _dbupdate("INSERT INTO `".$db_database."`.`stats` (`playername`, `stat`, `figure`,`good`) VALUES ( '".mysql_escape_string($player['who'])."','total kills','".$kills."',1);");
      $killsforscore[$player['who']] = $kills;
      $suicides = _dbquery("SELECT action, COUNT(*) FROM log WHERE who = '".$player['who']."' AND action = 'Suicide' GROUP BY action  ORDER BY COUNT(*) DESC",MYSQL_ASSOC);
      $suicides   = $suicides[0]['COUNT(*)']+1;
      $suicides   = $suicides -1;
-     _dbupdate("INSERT INTO `".$db_database."`.`stats` (`playername`, `stat`, `figure`, `good`) VALUES ( '".mysql_escape_string($player['who'])."','total suicides','".$suicides."','0');");
+     _dbupdate("INSERT INTO `".$db_database."`.`stats` (`playername`, `stat`, `figure`,`good`) VALUES ( '".mysql_escape_string($player['who'])."','total suicides','".$suicides."',0);");
      $suicidesforscore[$player['who']]= $suicides;
      
      
      $deaths = _dbquery("SELECT action, COUNT(*) FROM log WHERE target = '".$player['who']."' GROUP BY action",MYSQL_ASSOC);
      $deaths = $deaths[0]['COUNT(*)']+1;
      $deaths = $deaths -1;
-     _dbupdate("INSERT INTO `".$db_database."`.`stats` (`playername`, `stat`, `figure`,`good`) VALUES ( '".mysql_escape_string($player['who'])."','total deaths','".$deaths."','0');");
+     _dbupdate("INSERT INTO `".$db_database."`.`stats` (`playername`, `stat`, `figure`) VALUES ( '".mysql_escape_string($player['who'])."','total deaths','".$deaths."');");
      if ($deaths > 0) { $k2d =  round($kills/$deaths,1)*10; } else { $k2d = 0; }
-     _dbupdate("INSERT INTO `".$db_database."`.`stats` (`playername`, `stat`, `figure`, `good`) VALUES ( '".mysql_escape_string($player['who'])."','k2d','".$k2d."', NULL);");
+     _dbupdate("INSERT INTO `".$db_database."`.`stats` (`playername`, `stat`, `figure`,`good`) VALUES ( '".mysql_escape_string($player['who'])."','kill:death ratio','".$k2d."',1);");
      
      foreach ($guns as $gun)
         {
          $gunkills = _dbquery("SELECT action, COUNT(*) FROM log WHERE who = '".$player['who']."' AND action = 'Kill' AND weapon = '".$gun."' GROUP BY action",MYSQL_ASSOC);
          $gunkills = $gunkills[0]['COUNT(*)']+1;
          $gunkills = $gunkills-1;
-         _dbupdate("INSERT INTO `".$db_database."`.`stats` (`playername`, `stat`, `figure`,`good`) VALUES ( '".mysql_escape_string($player['who'])."','total ".$gun." kills','".$gunkills."','1');");    
+         _dbupdate("INSERT INTO `".$db_database."`.`stats` (`playername`, `stat`, `figure`, `good`) VALUES ( '".mysql_escape_string($player['who'])."','total ".$gun." kills','".$gunkills."', 1);");    
         }
     }
 
 
-// Go through stats and apply ranks    
+// Go through stats and apply ranks and bonus points   
 $alltypesofstat = _dbquery("SELECT DISTINCT stat from stats",MYSQL_ASSOC);
 foreach ($alltypesofstat as $thing)
     {
@@ -209,9 +210,9 @@ foreach ($alltypesofstat as $thing)
 foreach ($statsallplayers as $player)
     {
      $totalawardscores = _dbquery("SELECT sum(points) FROM stats WHERE playername = '".$player['who']."' AND points != 0",MYSQL_ASSOC);   
-     $totalscore = $totalawardscores['sum(points)'];
+     $totalscore = $totalawardscores[0]['sum(points)'];
      $totalscore = $totalscore + ($suicidesforscore[$player['who']] - ($suicidesforscore[$player['who']]*2)) + $killsforscore[$player['who']];
-     _dbupdate ("INSERT INTO `q2stats`.`stats` (`playername` ,`stat` ,`figure` ,`rank` ,`points`) VALUES ('".$player['who']."', 'total Score', '".$totalscore."', 0, 0);");
+     _dbupdate ("INSERT INTO `q2stats`.`stats` (`playername` ,`stat` ,`figure` ,`rank` ,`points`) VALUES ('".$player['who']."', 'total score', '".$totalscore."', 0, 0);");
     }
 
 ?>Stats updated

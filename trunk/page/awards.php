@@ -11,7 +11,7 @@ $allawards = _dbquery("SELECT DISTINCT stat FROM stats WHERE points !=0",MYSQL_A
 
 <?php if ($pathparams[1] == 'index.html') { ?>    
     <?php
-     $allawards = _dbquery("SELECT * FROM stats WHERE rank < 4 AND rank > 0 AND points != 0 ORDER by rank,points DESC;",MYSQL_ASSOC); 
+     $allawards = _dbquery("SELECT * FROM stats WHERE rank < 4 AND rank > 0 AND points != 0 AND good = 1 ORDER by rank,points DESC;",MYSQL_ASSOC); 
     ?>
     <table width="100%" class="sortable main-stats">
     <thead><tr><th>Medal</th><th>Player Name</th><th>Award</th><th>Bonus</th></tr></thead>
