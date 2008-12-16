@@ -41,7 +41,7 @@ foreach ($all_player_stats as $sta)
        $player_stats[$sta['playername']][$sta['stat']]['rank']=$sta['rank'];
        $player_stats[$sta['playername']][$sta['stat']]['points']=$sta['points'];
        
-       if ($sta['rank'] <4 && $sta['stats'] != 'total deaths' && $sta['stats'] != 'total score' && $sta['points'] != 0)
+       if ($sta['rank'] <4 && $sta['stat'] != 'total deaths' && $sta['stat'] != 'total score' && $sta['points'] != 0)
         {
          $player_stats[$sta['playername']]['awards'][$sta['stat']]['name']=$sta['stat'];
          $player_stats[$sta['playername']]['awards'][$sta['stat']]['rank']=$sta['rank'];
