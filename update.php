@@ -230,7 +230,7 @@ foreach ($alltypesofstat as $thing)
         foreach ($ranks as $rank)
             {
                if (isset($scores[$thing['stat']][$i]) && $rank['figure'] > 5 ) { $points = $scores[$thing['stat']][$i]; } else { $points = 0; }
-               _dbupdate("UPDATE `q2stats`.`stats` SET `rank` = '".$i."', `points` = '".$points."' WHERE CONVERT( `stats`.`playername` USING utf8 ) = '".$rank['playername']."' AND CONVERT( `stats`.`stat` USING utf8 ) = '".$thing['stat']."' AND `stats`.`figure` =".$rank['figure']." AND `stats`.`rank` =".$rank['rank']." LIMIT 1 ;");
+               _dbupdate("UPDATE `".$db_database."`.`stats` SET `rank` = '".$i."', `points` = '".$points."' WHERE CONVERT( `stats`.`playername` USING utf8 ) = '".$rank['playername']."' AND CONVERT( `stats`.`stat` USING utf8 ) = '".$thing['stat']."' AND `stats`.`figure` =".$rank['figure']." AND `stats`.`rank` =".$rank['rank']." LIMIT 1 ;");
                $i++;
             }                
     }
@@ -241,7 +241,7 @@ foreach ($statsallplayers as $player)
      $totalawardscores = _dbquery("SELECT sum(points) FROM stats WHERE playername = '".$player['who']."' AND points != 0",MYSQL_ASSOC);   
      $totalscore = $totalawardscores[0]['sum(points)'];
      $totalscore = $totalscore + ($suicidesforscore[$player['who']] - ($suicidesforscore[$player['who']]*2)) + $killsforscore[$player['who']];
-     _dbupdate ("INSERT INTO `q2stats`.`stats` (`playername` ,`stat` ,`figure` ,`rank` ,`points`) VALUES ('".$player['who']."', 'total score', '".$totalscore."', 0, 0);");
+     _dbupdate ("INSERT INTO `".$db_database."`.`stats` (`playername` ,`stat` ,`figure` ,`rank` ,`points`) VALUES ('".$player['who']."', 'total score', '".$totalscore."', 0, 0);");
     }
 
 ?>Stats updated
@@ -250,7 +250,7 @@ foreach ($statsallplayers as $player)
 /*_dbupdate("DELETE FROM `scores`"); // remove previous scores
 foreach ($scores as $score)
     {
-         _dbupdate ("INSERT INTO `q2stats`.`scores` (`award` ,`place` ,`points`) VALUES ('".key($score)."', '".key($point)."', '".$point."');");   
+         _dbupdate ("INSERT INTO `".$db_database."`.`scores` (`award` ,`place` ,`points`) VALUES ('".key($score)."', '".key($point)."', '".$point."');");   
 
      
         
