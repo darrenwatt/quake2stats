@@ -13,7 +13,7 @@ CREATE TABLE `knownusers` (
   `playername` varchar(250) NOT NULL,
   `email` varchar(250) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -32,7 +32,7 @@ CREATE TABLE `log` (
   `target` varchar(99) NOT NULL,
   `weapon` varchar(99) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=249 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
