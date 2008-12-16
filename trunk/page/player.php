@@ -63,7 +63,8 @@ $playername = str_replace('%7B','{',str_replace('%7D','}',str_replace('-',' ',st
     <tr>
         <td class=name><?php _html_link('Map',$maps['name']) ?></td>
         <td class=kills><?php _outputstat($maps['kills']) ?></td> 
-        <td class=kills><?php _outputstat($maps['deaths']) ?></td> 
+        <td class=kills><?php _outputstat($maps['deaths']) ?></td>
+        <?php if (!isset($maps['suicides'])) { $maps['suicides'] = 0; } ?> 
         <td class=kills><?php _outputstat($maps['suicides']) ?></td> 
     </tr>
     <?php } ?>
