@@ -16,7 +16,7 @@
           <h1>KungFu Stats</h1>
           <h4>Now with Added stats</h4>
           <img class=logo src="<?php echo PATH ?>images/name.PNG">
-          <img class=badge1 src="<?php echo PATH.'images/badges/badge'. mt_rand(1,2) . '.PNG' ?>">
+          <img class=badge1 src="<?php echo PATH.'images/badges/badge'. mt_rand(1,4) . '.PNG' ?>">
 
     </div>
     <div id=toolbar>
