@@ -4,9 +4,9 @@ include ('config.php');
    // stuff for working out what page we're trying to display!
    if (PATH == '/') { $pathparams = substr($_SERVER['REQUEST_URI'],1); } else { $pathparams = str_replace(PATH,'',$_SERVER['REQUEST_URI']); }
  
-   if ($_GET['debug'] == 'true') { echo $pathparams.'<br>';print_r($_SERVER['REQUEST_URI']); }
+   if (isset($_GET['debug']) && $_GET['debug'] == 'true') { echo $pathparams.'<br>';print_r($_SERVER['REQUEST_URI']); }
    $pathparams = explode('/',$pathparams);
-   if ($_GET['debug'] == 'true') { print_r($pathparams); }  
+   if (isset($_GET['debug']) && $_GET['debug'] == 'true') { print_r($pathparams); }  
    switch ($pathparams[0]){
         case "page":
             if (empty($pathparams[1])) {$page = 'page/Player-Ranking.php';} else {
@@ -31,7 +31,7 @@ include ('config.php');
          
         } 
         
-        if ($_GET['debug'] == 'true') { echo $page; }
+        if (isset($_GET['debug']) && $_GET['debug'] == 'true') { echo $page; }
 /// load all stats data into array This may be a stupid thing to do 
 $all_player_stats = _dbquery("SELECT * from stats",MYSQL_ASSOC);
 foreach ($all_player_stats as $sta)
@@ -48,7 +48,7 @@ foreach ($all_player_stats as $sta)
          $player_stats[$sta['playername']]['awards'][$sta['stat']]['figure']=$sta['figure'];  
          $player_stats[$sta['playername']]['awards'][$sta['stat']]['points']=$sta['points'];
         }
-       if ( $sta['stats'] == 'total score')
+       if ( $sta['stat'] == 'total score')
         {
          $player_stats[$sta['playername']]['score']=$sta['points']; 
         }
@@ -94,7 +94,7 @@ include('header.php');
 ?>
 <div id="content">
 <?php
-  if ($_GET['debug'] == 'true') { echo $page.'<br>'; print_r($pathparams); }  
+  if (isset($_GET['debug']) && $_GET['debug'] == 'true') { echo $page.'<br>'; print_r($pathparams); }  
  include($page); ?>
 </div>
 <?php include('footer.php'); ?>

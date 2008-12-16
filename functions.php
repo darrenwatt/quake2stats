@@ -180,6 +180,7 @@ function _isitindb ($sql)
 
 function _dbquery ($sql,$type=MYSQL_ASSOC,$print=false)  // type MYSQL_ASSOC , MYSQL_NUM , MYSQL_BOTH
         {
+        
         _dbconnect();
         $query = mysql_query($sql);
         $i=0;
@@ -195,7 +196,7 @@ function _dbquery ($sql,$type=MYSQL_ASSOC,$print=false)  // type MYSQL_ASSOC , M
             print_r($output);
             echo '</pre>';
             }
-        return $output;
+        if (isset($output)) { return $output; } else { return false; }
         if ($_GET['debug'] =='true') { echo '<span class="debug">Debug! '.$sql.'</span>'; };
         mysql_close();
         }
