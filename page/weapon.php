@@ -6,7 +6,9 @@ $weaponname = str_replace('-',' ',str_replace('.html','',$pathparams[1]));
 $allweapons = _dbquery("SELECT DISTINCT weapon FROM log WHERE target != 'self';",MYSQL_ASSOC);
 if ($pathparams[1] != 'index.html') {
 ?>
-<img style="float:right" src="<?php echo PATH.'images/gunicons/'.str_replace(' ','-',$weaponname)?>.png"> 
+
+<img src="<?php echo PATH.'images/gunicons/'.str_replace(' ','-',$weaponname)?>.png"; style="float: right; padding-bottom: 10px;"/>
+
 <?php } ?>
 <h3><?php _page_name($pathparams) ?></h3> 
 <ul class=submenu>
