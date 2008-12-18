@@ -5,8 +5,8 @@
 <meta http-equiv="Cache-Control" content="no-cache">
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <meta http-equiv="content-language" content="en">
-<meta name="generator" content="KungFu Stats by James Lloyd & Darren Watt">
-<title>KungFu Stats <?php if (!empty($pathparams[0])) { echo $pathparams[0]; } ?></title>
+<meta name="generator" content="Q2Stats by James Lloyd & Darren Watt">
+<title>Q2Stats <?php if (!empty($pathparams[0])) { echo $pathparams[0]; } ?></title>
 <link rel="stylesheet" type="text/css" href="<?php echo PATH; ?>style.css">
 
 </head>
