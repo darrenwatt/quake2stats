@@ -18,7 +18,7 @@ if ($pathparams[1] != 'index.html') {
     <?php _html_link('Weapons',$allweapon['weapon']) ?></li>
 <?php } ?>
 </ul>
-<br />
+<div style="clear:both;"></div>
 
 
 <?php if ($pathparams[1] == 'index.html') { ?>
