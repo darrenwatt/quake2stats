@@ -8,7 +8,8 @@
 <meta name="generator" content="Q2Stats by James Lloyd & Darren Watt">
 <title>Q2Stats <?php if (!empty($pathparams[0])) { echo $pathparams[0]; } ?></title>
 <link rel="stylesheet" type="text/css" href="<?php echo PATH; ?>style.css">
-
+<link rel="shortcut icon" href="<?php echo PATH; ?>favicon.ico">
+<link rel="icon" type="image/ico" href="<?php echo PATH; ?>favicon.ico">
 </head>
 <body>
 <div id="wrapper">
