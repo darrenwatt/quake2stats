@@ -127,7 +127,24 @@ h3 { margin-left:20px;}
 h1,h2,h3,h4,h5,h6 {
  color:#C0C0FF;
 }
-.submenu li { display:inline;} 
+
+.submenu li {
+border-left:0 none;
+border-style:none;
+border-top:0 none;
+border-width:0 1px 0 0;
+display:inline;
+float:left;
+font-size:10px;
+height:68px;
+margin:0;
+padding-bottom:4px;
+padding-right:1px;
+padding-top:4px;
+text-align:center;
+width:69px;
+}
+
 .submenu { padding-left:20px;padding-top:0px;font-size:11px;}
 table { width:98%; }
 .name a img { border: none; }
