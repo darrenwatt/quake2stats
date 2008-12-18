@@ -9,18 +9,20 @@ if ($pathparams[1] != 'index.html') {
 
 <img src="<?php echo PATH.'images/gunicons/'.str_replace(' ','-',$weaponname)?>.png"; style="float: right; padding-bottom: 10px;"/>
 
+
 <?php } ?>
 <h3><?php _page_name($pathparams) ?></h3> 
 <ul class=submenu>
 <?php foreach ($allweapons as $allweapon) { ?>
-    <li><?php _html_link('Weapons',$allweapon['weapon']) ?></li>
+    <li><img src="<?php echo PATH.'images/gunicons/'.str_replace(' ','-',$allweapon['weapon'])?>_48.png"; /><br />
+    <?php _html_link('Weapons',$allweapon['weapon']) ?></li>
 <?php } ?>
 </ul>
-  
-
+<br />
 
 
 <?php if ($pathparams[1] == 'index.html') { ?>
+
 <?php
 $playersrankedbyweapon = _dbquery("SELECT who, action, weapon, COUNT(*) FROM log WHERE action = 'kill' GROUP BY weapon,who  ORDER BY COUNT(*) DESC LIMIT 50",MYSQL_ASSOC);
 ?>
