@@ -19,8 +19,10 @@ background:#00276a;
 }
 #header h1,#header h4 {display:none;  }
 #header .logo { margin-left: 20px;margin-top:20px;}
-#header .badge1 { position: absolute; margin-left: 240px; margin-top: 30px}
-
+#header .badge1 { position: absolute; margin-left: 280px; margin-top: 5px}
+#header .server { color:white;font-size:80%;position: absolute; top:20px;margin-left: 550px; margin-top:3px; height:90px; width:250px; border:inset 2px darkblue;background white;}
+#header .server ul { margin:0; }
+#header .server li { margin:0; }      
 h2 a { margin-left:20px; color: white; font-weight: bold; font-size: 14px;}
 
 

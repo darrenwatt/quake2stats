@@ -17,8 +17,21 @@
           <h1>Q2Stats</h1>
           <h4>The latest in Quake 2 statistics, since 2008</h4>
           <img class=logo src="<?php echo PATH ?>images/name.PNG">
+          
           <img class=badge1 src="<?php echo PATH.'images/badges/badge'. mt_rand(1,4) . '.png' ?>">
-
+          <div class=server>
+          <?php if (isset($levelinfo['q2']['hostname'])) { ?>
+          <ul>
+            <li>Host: <?php echo $levelinfo['q2']['hostname']; ?></li> 
+            <li>Game: <?php echo $levelinfo['q2']['gamename']; ?></li> 
+            <li>Current Map: <?php echo $levelname[$levelinfo['q2']['mapname']]; ?></li>
+            <li>Time Limit: <?php echo $levelinfo['q2']['timelimit']; ?></li> 
+            <li>Players: <?php if ( isset($levelinfo['q2']['players'])) {  echo count($levelinfo['q2']['players']); } else { echo '0'; }?></li>
+          </ul>
+          <?php } else { ?>
+              Server down.
+          <?php } ?>
+          </div>
     </div>
     <div id=toolbar>
         <ul>

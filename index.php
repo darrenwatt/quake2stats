@@ -89,7 +89,18 @@ foreach ($all_player_stats as $sta)
              $player_stats[$sta['playername']]['action'][$killedbyplayer['who']]['name']=$killedbyplayer['who'];    
             } }
     }       
-   
+$timeout = 2000;
+$normal  = true;
+$raw     = true;
+$servers['q2'] = array('quake2', 'kungfudazza.game-server.cc', 27910);     
+$gq = new GameQ;
+$gq->setOption('timeout', $timeout);
+$gq->setOption('debug',   true);
+$gq->setOption('sock_count', 4);
+$gq->setOption('sock_start', 10000);
+$gq->addServers($servers);
+$gq->setOption('raw', false);
+$levelinfo = $gq->requestData();
 include('header.php');
 ?>
 <div id="content">

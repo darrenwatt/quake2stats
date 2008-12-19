@@ -89,10 +89,28 @@ function _medal_img_link($stat,$rank,$type="good")
     }       
      echo "<a title='No. ".$rank." ".$stat."' href='".PATH."Awards/".str_replace(' ','-',$stat).".html'>".$image."</a>";   
     }
-
+function _html_player_link($player,$before,$after,$medals=true,$gravatar=true,$gravatarsize='20')
+    {
+    echo $before;
+    if ($gravatar == true )
+        {
+        _gravatar($player,$gravatarsize);    
+        }
+    echo " <a href='".PATH."Player/$player.html'>";    
+    echo $player.'</a> ';
+    if ($medals == true)
+        {
+         $goodmedals = _dbquery ("SELECT rank,stat FROM stats WHERE playername = '".$player."' AND rank < 4 AND figure > 0 AND points > 0 and good = 1 order by rank",MYSQL_ASSOC);
+         $badmedals = _dbquery ("SELECT rank,stat FROM stats WHERE playername = '".$player."' AND rank < 4 AND figure > 0 AND points != 0 and good = 0 order by rank",MYSQL_ASSOC);
+         if ($goodmedals) { foreach ($goodmedals as $medal) { _medal_img_link($medal['stat'],$medal['rank']);  } }
+         echo ' ';
+         if ($badmedals) { foreach ($badmedals as $medal) { _medal_img_link($medal['stat'],$medal['rank'],'bad'); } }
+        }
+    echo $after;
+    }
 function _html_link ($type,$pagename="index")
     {
-    
+    global $levelinfo;
     $pagefilename = str_replace(' ','-',$pagename).'.html';
     if ($pagename  == "index") { $pagename = $type; }
     if ($type == 'Player' && $pagename != 'index')
@@ -100,6 +118,14 @@ function _html_link ($type,$pagename="index")
          echo "<a href='".PATH."$type/$pagefilename'>";
          _gravatar($pagename,20);  
         echo " $pagename</a>";
+        if (isset($levelinfo['q2']['players']))
+            {
+                foreach($levelinfo['q2']['players'] as $plyr)
+                    {
+                        if ($plyr['nick'] == $pagename) {echo ' <b>Playing now!</b>'; }
+                        
+                    }
+            }
         } else {
         echo "<a href='".PATH."$type/$pagefilename'>$pagename</a>";        
         }
