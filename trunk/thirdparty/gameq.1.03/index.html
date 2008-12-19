@@ -1,0 +1,605 @@
+<html>
+<head>
+    <title>GameQ - A PHP Gameserver Status Query Library</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="description" content="GameQ - A gameserver query library written in PHP">
+<meta name="keywords" content="GameQ, PHP, gameserver, status, query, library">
+<style type="text/css">
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+    text-align: center;
+}
+#container {
+    text-align: left;
+    width: 640px;
+    margin: 0 auto 0 auto;
+}
+pre {
+    color: #06F;
+    width: 95%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px dashed #CCC;
+    display: block;
+}
+#sflogo {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.chapter {
+    margin-top: 36px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 0;
+}
+#subtitle {
+    text-align: center;
+    font-weight: bold;
+    margin-left: 12px;
+}
+h2 {
+    color: #C60;
+    border-bottom: 1px solid #DDD;
+}
+a {
+    color: #039;
+}
+p {
+    text-align: justify;
+}
+.up a {
+    color: #999;
+}
+#faq li p:first-letter {
+    font-weight: bold;
+    font-size: 20px;
+    color: #CCC;
+    display: block;
+}
+</style>
+</head>
+
+<body>
+    <div id="container">
+<div id="header">
+    <h1>Game<span style="color:#F60">Q</span></h1>
+    <p id="subtitle">A <abbr title="Hypertext Preprocessor">PHP</abbr> Gameserver Status Query Library.</p>
+    <a href="http://sourceforge.net" id="sflogo">
+        <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=85130&amp;type=2" width="125" height="37" border="0" alt="SourceForge.net Logo" />
+    </a>
+</div>
+
+
+<div class="chapter" id="toc">
+    <h2>0. Table of Contents</h2>
+    <ol>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#requirements">Requirements</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#basic">Basic Usage</a></li>
+        <li>
+            <a href="#advanced">Advanced Usage</a>
+            <ol>
+                <li><a href="#options">Setting Options</a></li>
+                <li><a href="#filters_use">Using Filters</a></li>
+                <li><a href="#filters_create">Creating Filters</a></li>
+                <li><a href="#protocol_create">Creating A New Protocol</a></li>
+            </ol>
+        </li>
+        <li><a href="#games">Supported Games</a></li>
+        <li><a href="#faq">Frequently Asked Questions</a></li>
+    </ol>
+</div>
+
+
+<div class="chapter" id="introduction">
+<h2>1. Introduction</h2>
+<p>
+    GameQ is a library to query one or more gameservers using UDP and return the formatted results in an array.
+    It's object-oriented, and easily expandable.<br/>
+    For feature requests, bug reports etc. I can be contacted
+    at <a href="mailto:tombuskens@users.sourceforge.net">tombuskens@users.sourceforge.net</a>.
+    <br/><br/>
+    Currently over <a href="#games">150 games</a> are supported.
+    <br/><br/>
+    The <a href="http://sourceforge.net/projects/gameq/">sourceforge project page</a> might also be of interest.
+</p>
+<p class="up"><a href="#toc">toc</a></p>
+</div>
+
+<div class="chapter" id="requirements">
+<h2>2. Requirements</h2>
+<p>
+    You'll need <a href="http://www.php.net/">PHP</a> 5 to use the library. GameQ also needs permission to use UDP
+    ports, since these are used to communicate with the gameservers.
+</p>
+<p class="up"><a href="#toc">toc</a></p>
+</div>
+
+<div class="chapter" id="installation">
+<h2>3. Installation</h2>
+<p>
+    Make sure you've got the lastest version, which can be found 
+    <a href="http://sourceforge.net/project/showfiles.php?group_id=85130">here</a>.
+    Once you've downloaded the file, simply extract it.
+    Alternatively you can get a working version from the cvs repository.
+</p>
+<p class="up"><a href="#toc">toc</a></p>
+</div>
+
+<div class="chapter" id="basic">
+<h2>4. Basic Usage</h2>
+<p>
+    Querying a server is pretty simple. First, you define the server(s) you want to query.
+    For example, let's say we want to query a quake and a battlefield server.
+<pre>
+$servers['quakeserver'] = array('quake3', '192.168.0.1', '27962');
+$servers['a bf server'] = array('bf', 'localhost');</pre>
+
+    As you can see, each entry consists of a game name, server address and optionally a query port.
+    If you don't specify a port, the default port for the game will be used.<br/>
+    To check which game name to use, look in the configuration file, which is
+    located at <em>path/to/GameQ/games.ini</em>.<br/>
+    <br/>    
+   Secondly, we initialize the main class and add the servers.
+<pre>
+require_once 'path/to/GameQ.php';
+
+// Initialize the class
+$gq = new GameQ;
+
+// Add the servers we just defined
+$gq->addServers($servers);</pre>
+
+    Now we're ready to request the data from the server, and process it.
+<pre>
+// Request the data, and display it
+try {
+    $data = $gq->requestData();
+    print_r($data);
+}
+
+// Catch any errors that might have occurred
+catch (GameQ_Exception $e) {
+    echo 'An error occurred.';
+}</pre>
+
+    The data returned would look like this:
+<pre>
+Array
+(
+    [quakeserver] => Array
+        (
+            [version] => Q3 1.32 linux-i386 Oct  7 2002
+            [dmflags] => 0
+            [fraglimit] => 35
+            [timelimit] => 20
+            [ggametype] => 4
+            [protocol] => 68
+            [mapname] => q3tourney6_ctf
+            [svprivateClients] => 1
+            [svhostname] => My local quakeserver
+            [svmaxclients] => 17
+            [svpunkbuster] => 0
+            [svmaxRate] => 15000
+            [svminPing] => 0
+            [svmaxPing] => 0
+            [svfloodProtect] => 1
+            [svallowDownload] => 0
+            [botminplayers] => 2
+            [capturelimit] => 8
+            [gamename] => baseq3
+            [gmaxGameClients] => 0
+            [gneedpass] => 0
+            [players] => Array
+                (
+                    [0] => Array
+                        (
+                            [frags] => 20
+                            [ping] => 0
+                            [nick] => Bitterman
+                        )
+
+                    [1] => Array
+                        (
+                            [frags] => 28
+                            [ping] => 0
+                            [nick] => Razor
+                        )
+
+                    [2] => Array
+                        (
+                            [frags] => 5
+                            [ping] => 0
+                            [nick] => Patriot
+                        )
+
+                    [3] => Array
+                        (
+                            [frags] => 17
+                            [ping] => 0
+                            [nick] => Uriel
+                        )
+
+                )
+
+            [game] => baseq3
+            [punkbuster] => 0
+            [pure] => 1
+            [gametype] => 4
+            [clients] => 4
+            [address] => 192.168.0.1
+            [port] => 27960
+        )
+
+    [a bf server] => Array
+        (
+            [hostname] => My local battlefield server
+            [gamename] => battlefield2
+            [gamever] => 1.1.2965-797.0
+            [mapname] => Road To Jalalabad
+            [gametype] => gpm_cq
+            [gamevariant] => bf2
+            [numplayers] => 2
+            [maxplayers] => 32
+            [gamemode] => openplaying
+            [password] => 0
+            [timelimit] => 3600
+            [roundtime] => 2
+            [hostport] => 16567
+            [bf2dedicated] => 1
+            [bf2ranked] => 1
+            [bf2anticheat] => 1
+            [bf2os] => linux
+            [bf2autorec] => 0
+            [bf2didx] => 
+            [bf2ddl] => 
+            [bf2voip] => 1
+            [bf2autobalanced] => 1
+            [bf2friendlyfire] => 1
+            [bf2tkmode] => Punish
+            [bf2startdelay] => 15
+            [bf2spawntime] => 15.000000
+            [bf2sponsortext] => Howdy
+            [bf2scorelimit] => 0
+            [bf2ticketratio] => 100
+            [bf2teamratio] => 100.000000
+            [bf2team1] => MEC
+            [bf2team2] => US
+            [bf2bots] => 0
+            [bf2pure] => 1
+            [bf2mapsize] => 64
+            [bf2globalunlocks] => 1
+            [bf2fps] => 33.000000
+            [bf2plasma] => 0
+            [bf2reservedslots] => 0
+            [bf2coopbotratio] => 
+            [bf2coopbotcount] => 
+            [bf2coopbotdiff] => 
+            [bf2novehicles] => 0
+            [players] => Array
+                (
+                    [0] => Array
+                        (
+                            [player] => Bob
+                            [score] => 36
+                            [ping] => 30
+                            [team] => 2
+                            [deaths] => 6
+                            [pid] => 47837808
+                            [skill] => 11
+                            [AIBot] => 0
+                        )
+
+                    [1] => Array
+                        (
+                            [player] => Jimmy
+                            [score] => 36
+                            [ping] => 28
+                            [team] => 2
+                            [deaths] => 7
+                            [pid] => 68243063
+                            [skill] => 9
+                            [AIBot] => 0
+                        )
+                )
+
+            [teams] => Array
+                (
+                    [0] => Array
+                        (
+                            [teamt] => MEC
+                            [scoret] => 0
+                        )
+
+                    [1] => Array
+                        (
+                            [teamt] => US
+                            [scoret] => 0
+                        )
+
+                )
+
+            [address] => 192.168.0.1
+            [port] => 29900
+        )
+
+)</pre>
+
+The default timeout for the server response is 200 milliseconds. If you want to change this,
+see <a href="#options">Setting Options</a>.<br/>
+That's all there is to it. Of course, you'll most likely need to display the received data in a proper way,
+instead of simply dumping the array, but I'll leave that to your imagination.
+        
+</p>
+<p class="up"><a href="#toc">toc</a></p>
+</div>
+
+
+<div class="chapter" id="advanced">
+<h2>5. Advanced Usage</h2>
+
+
+   
+<h3 id="options">5.1. Setting Options</h3>
+<p>Options currently supported are
+<ul>
+    <li>timeout - integer, maximum time the script waits for server responses, in milliseconds</li>
+    <li>sockets - integer, maximum number of sockets that are used simultaneously</li>
+    <li>debug - boolean, enables detailed parsing output errors</li>
+    <li>raw - boolean, causes <code>GameQ::requestData()</code> to return unparsed ("raw") data</li>
+</ul>
+<p>You can set options using the <code>GameQ::setOption()</code> method.
+<pre>// Set server timeout to 500ms and return only raw data
+$gq->setOption('timeout', 500);
+$gq->setOption('raw', true);</pre>
+
+
+<h3 id="filters_use">5.2. Using Filters</h3>
+<p>You can add filters to modify results received from servers. Currently there are two filters included:
+<ul>
+    <li>normalise:<br/>
+    This filter makes sure a subset of data is always available, next to the normal data. If a variable is not
+    available it's value will be set to false.
+    </li>
+    <li>stripcolor:<br/>
+    This filter strips all quake-like color tags from all data returned.
+    </li>
+</ul>
+Filter classes are located in  <em>path/to/GameQ/Filter/</em>.
+</p>
+<pre>
+// To use a filter, call setFilter before requestData
+$gq->setFilter('normalise');
+
+// You can also remove the filters
+$gq->removeFilter('normalise');
+</pre>
+
+
+<h3 id="filters_create">5.3. Creating Filters</h3>
+<p>TODO</p>
+
+
+<h3 id="protocol_create">5.4. Creating A New Protocol</h3>
+<p>TODO</p>
+
+<p class="up"><a href="#toc">toc</a></p>
+</div>
+
+
+<div class="chapter" id="games">
+<h2>6. Supported Games</h2>
+<p>These games / game engines are currently supported: </p>
+<ul>
+<li>Age of Empires II</li>
+<li>Alien Arena</li>
+<li>Alien vs Predator 2</li>
+<li>All-Seeing Eye Protocol</li>
+<li>America's Army</li>
+<li>Armed Assault</li>
+<li>Baldur's Gate</li>
+<li>Battlefield 1942</li>
+
+<li>Battlefield 2</li>
+<li>Battlefield 2142</li>
+<li>Battlefield Vietnam</li>
+<li>Breed</li>
+<li>C&amp;C: Renegade</li>
+<li>Call of Duty</li>
+<li>Call of Duty - United Offensive</li>
+<li>Call of Duty 2</li>
+
+<li>Call of Duty 3</li>
+<li>Call of Duty 4</li>
+<li>Call of Juarez</li>
+<li>Chaser</li>
+<li>Chrome</li>
+<li>Codename Eagle</li>
+<li>Commandos 3: Destination Berlin</li>
+<li>Contract J.A.C.K</li>
+<li>Counter-Strike</li>
+
+<li>Counter-Strike (old protocol)</li>
+<li>Counter-Strike 2d</li>
+<li>Counter-Strike: Source</li>
+<li>Cross Racing Championship</li>
+<li>Crysis</li>
+<li>Cube Engine</li>
+<li>Daikatana</li>
+<li>Dark Messiah of Might and Magic</li>
+<li>Day of Defeat</li>
+
+<li>Day of Defeat: Source</li>
+<li>Deadly Dozen: Pacific Theater</li>
+<li>Descent 3</li>
+<li>Deus Ex</li>
+<li>Devastation</li>
+<li>Dirt Track Racing II</li>
+<li>Doom 3</li>
+<li>Drakan: Order of the Flame</li>
+<li>Enemy Territory: Quake Wars</li>
+
+<li>F1 2002</li>
+<li>FEAR</li>
+<li>FarCry</li>
+<li>Freelancer</li>
+<li>Frontline: Fuel of War</li>
+<li>Gamespy Protocol</li>
+<li>Ghost Recon</li>
+<li>Ghost Recon: Advanced Warfighter</li>
+<li>Ghost Recon: Advanced Warfighter 2</li>
+
+<li>Giants: Citizen Kabuto</li>
+<li>Global Operations</li>
+<li>Gore</li>
+<li>Half-Life</li>
+<li>Half-Life 2</li>
+<li>Halo 2</li>
+<li>Halo: Combat Evolved</li>
+<li>Heretic 2</li>
+<li>Hexen 2</li>
+
+<li>Hexen World</li>
+<li>Homeworld 2</li>
+<li>IGI 2</li>
+<li>IL-2 Sturmovik</li>
+<li>Iron Storm</li>
+<li>James Bond: Nightfire</li>
+<li>KISS Psycho Circus</li>
+<li>Kingpin: Life of Crime</li>
+<li>Medal of Honor: Allied Assault</li>
+
+<li>Medal of Honor: Breakthrough</li>
+<li>Medal of Honor: Pacific Assault</li>
+<li>Medal of Honor: Spearhead</li>
+<li>Multi Theft Auto</li>
+<li>Multi Theft Auto: San Andreas</li>
+<li>Multi Theft Auto: Vice City</li>
+<li>Need For Speed: Hot Pursuit 2</li>
+<li>Nerf Arena Blast</li>
+<li>Neverwinter Nights</li>
+
+<li>Neverwinter Nights 2</li>
+<li>Nexuiz</li>
+<li>Nitro Family</li>
+<li>No One Lives Forever</li>
+<li>No One Lives Forever 2</li>
+<li>Operation Flashpoint</li>
+<li>Painkiller</li>
+<li>Postal 2</li>
+<li>Prey</li>
+
+<li>Purge Jihad</li>
+<li>Quake 2</li>
+<li>Quake 3: Arena</li>
+<li>Quake 4</li>
+<li>Quakeworld</li>
+<li>Rag Doll Kung Fu</li>
+<li>Rainbow 6</li>
+<li>Rainbow 6: Rogue Spear</li>
+<li>RalliSport Challenge</li>
+
+<li>Rally Masters</li>
+<li>Red Faction</li>
+<li>Red Orchestra: Ostfront 41-45</li>
+<li>Redline</li>
+<li>Return to Castle Wolfenstein</li>
+<li>Rise of Nations</li>
+<li>Rune</li>
+<li>S.T.A.L.K.E.R: Shadow of Chernobyl</li>
+<li>SWAT 4</li>
+
+<li>Sauerbraten Engine</li>
+<li>Savage: Battle for Newerth</li>
+<li>Serious Sam</li>
+<li>Serious Sam 2</li>
+<li>Shogo: Mobile Armor Division</li>
+<li>SiN</li>
+<li>SiN 1 Multiplayer</li>
+<li>Soldat</li>
+<li>Soldier of Fortune</li>
+
+<li>Soldier of Fortune 2: Double Helix</li>
+<li>Source Engine</li>
+<li>Star Trek Voyager: Elite Forc</li>
+<li>Star Trek Voyager: Elite Force 2</li>
+<li>Star Trek: Bridge Commander</li>
+<li>Star Wars Jedi Knight II: Jedi Outcast</li>
+<li>Star Wars Jedi Knight: Jedi Academy</li>
+<li>Star Wars: Battlefront</li>
+<li>Star Wars: Battlefront 2</li>
+
+<li>Starsiege: Tribes</li>
+<li>Sum of All Fears</li>
+<li>Tactical Operations</li>
+<li>Team Factor</li>
+<li>Team Fortress 2</li>
+<li>Terminus</li>
+<li>The Ship</li>
+<li>Tony Hawk Underground 2</li>
+<li>Tony Hawk's Pro Skater 3</li>
+
+<li>Tony Hawk's Pro Skater 4</li>
+<li>Tremulous</li>
+<li>Tribes 2</li>
+<li>Tribes: Vengeance</li>
+<li>Tron 2.0</li>
+<li>Turok 2</li>
+<li>Universal Combat</li>
+<li>Unreal</li>
+<li>Unreal 2 Engine</li>
+
+<li>Unreal 2 XMP</li>
+<li>Unreal Tournament</li>
+<li>Unreal Tournament 2003</li>
+<li>Unreal Tournament 2004</li>
+<li>Unreal Tournament 3</li>
+<li>V8 Supercar Challenge</li>
+<li>Vietcong</li>
+<li>Vietcong 2</li>
+<li>Warsow</li>
+
+<li>Wheel of Time</li>
+<li>Wolfenstein: Enemy Territory</li>
+<li>Xpand Rally</li>
+<li>rFactor</li>
+</ul>
+<p>If you feel there's a game missing, feel free to let me know, and I'll see what I can do.</p>
+<p class="up"><a href="#toc">toc</a></p>
+</div>
+
+<div class="chapter" id="faq">
+<h2>7. Frequently Asked Questions</h2>
+<ol>
+    <li><p>Q Can GameQ support game X?</p>
+        <p>A If the game in question supports UDP queries, then yes.<br/>
+        TCP is currently not supported.
+        </p>
+    <li>
+        <p>Q I'm not getting a response from any servers.</p>
+        <p>A This can have several causes:
+            <ul>
+                <li>Your php installation must be allowed to use UDP sockets.</li>
+                <li>Make sure you're using the right protocol. You can check available protocols
+                in <em>path/to/GameQ/games.ini</em>.</li>
+                <li>Make sure you're using the right query port. In many cases, the query port and
+                host port are not the same.</li>
+            </ul>
+        </p>
+    </li>
+    <li>
+        <p>Q My counterstrike / halflife server is not responding.</p>
+        <p>A If the server is running through steam, try using the "source" protocol.</p>
+</ol>
+</p>
+<p class="up"><a href="#toc">toc</a></p>
+</div>
+
+
+</div>
+
+</body>
