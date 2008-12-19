@@ -17,7 +17,7 @@ foreach ($plyscrs as $ranking)
 
 <div >
     <h2><a name="Player-Ranking">Player Ranking</a></h2>
-    <table class="main-stats">
+    <table class="main-stats sortable">
     <tr>
           <th class=rank></th>
           <th>Player name</th>
