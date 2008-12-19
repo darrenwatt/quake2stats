@@ -8,7 +8,7 @@ $allawards = _dbquery("SELECT DISTINCT stat FROM stats WHERE points !=0",MYSQL_A
     <li><?php _html_link('Awards',$allaward['stat']) ?></li>
 <?php } ?>
 </ul>
-
+  
 <?php if ($pathparams[1] == 'index.html') { ?>    
     <?php
      $allawards = _dbquery("SELECT * FROM stats WHERE rank < 4 AND rank > 0 AND points != 0 AND good = 1 ORDER by rank,points DESC;",MYSQL_ASSOC); 
@@ -52,7 +52,7 @@ $awards = _dbquery("SELECT * FROM stats where stat = '".$award."' AND points !=0
     <?php foreach ($awards as $award) { ?>
     <tr>
         <td class=rank><?php echo _ordinalize($award['rank']) ?></td>
-        <td class=name><?php _html_link('Player',$award['playername']) ?></td>
+        <td class=name><?php _html_player_link($award['playername'],'','',false,true); ?></td>
         <td class=kills><?php if ($pathparams[1] == 'kill:death-ratio.html') { echo $award['figure']/10; } else { echo $award['figure']; }  ?></td>  
         <td class=kills><?php echo $award['points'] ?></td>
     </tr>
