@@ -32,9 +32,7 @@ foreach ($plyscrs as $ranking)
         <tr>
             <td class=rank><?php echo _ordinalize($i,'rank');$i++ ?></td> 
             <td class=name style="text-align:left;">
-                <?php _html_link('Player',$stats['name']);?>
-                <?php if ($goodmedals) { foreach ($goodmedals as $medal) { _medal_img_link($medal['stat'],$medal['rank']); } }?>
-                <?php if ($badmedals) { foreach ($badmedals as $medal) { _medal_img_link($medal['stat'],$medal['rank'],'bad'); } }?>
+                <?php _html_player_link($stats['name'],'','',true,true); ?>
             </td>
             <td class=kills><?php echo $stats['total score']; ?></td>
             <td class=kills><?php echo $stats['total kills']; ?></td>

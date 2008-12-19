@@ -18,7 +18,7 @@ $allawards = _dbquery("SELECT DISTINCT stat FROM stats WHERE points !=0",MYSQL_A
      <?php foreach (  $allawards as $award ) {?>
         <tr>
            <td class=rank><?php echo _ordinalize($award['rank']) ?></td>  
-            <td class=name><?php _html_link('Player',$award['playername']) ?></td> 
+            <td class=name><?php _html_player_link($award['playername'],'','',false,true); ?></td> 
            <td class=weapon><?php _html_link('Awards',$award['stat']) ?></td>
            <td class=kills><?php _outputstat($award['points']) ?></td> 
         </tr> 
@@ -32,7 +32,7 @@ $allawards = _dbquery("SELECT DISTINCT stat FROM stats WHERE points !=0",MYSQL_A
      <?php foreach (  $allawards as $award ) {?>
         <tr>
            <td class=rank><?php echo _ordinalize($award['rank']) ?></td>  
-            <td class=name><?php _html_link('Player',$award['playername']) ?></td> 
+            <td class=name><?php _html_player_link($award['playername'],'','',false,true); ?></td> 
            <td class=weapon><?php _html_link('Awards',$award['stat']) ?></td>
            <td class=kills><?php _outputstat($award['points']) ?></td> 
         </tr> 
