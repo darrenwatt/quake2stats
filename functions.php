@@ -91,6 +91,7 @@ function _medal_img_link($stat,$rank,$type="good")
     }
 function _html_player_link($player,$before,$after,$medals=true,$gravatar=true,$gravatarsize='20')
     {
+    global $levelinfo; 
     echo $before;
     if ($gravatar == true )
         {
@@ -106,18 +107,6 @@ function _html_player_link($player,$before,$after,$medals=true,$gravatar=true,$g
          echo ' ';
          if ($badmedals) { foreach ($badmedals as $medal) { _medal_img_link($medal['stat'],$medal['rank'],'bad'); } }
         }
-    echo $after;
-    }
-function _html_link ($type,$pagename="index")
-    {
-    global $levelinfo;
-    $pagefilename = str_replace(' ','-',$pagename).'.html';
-    if ($pagename  == "index") { $pagename = $type; }
-    if ($type == 'Player' && $pagename != 'index')
-        {
-         echo "<a href='".PATH."$type/$pagefilename'>";
-         _gravatar($pagename,20);  
-        echo " $pagename</a>";
         if (isset($levelinfo['q2']['players']))
             {
                 foreach($levelinfo['q2']['players'] as $plyr)
@@ -126,9 +115,14 @@ function _html_link ($type,$pagename="index")
                         
                     }
             }
-        } else {
-        echo "<a href='".PATH."$type/$pagefilename'>$pagename</a>";        
-        }
+    echo $after;
+    }
+function _html_link ($type,$pagename="index")
+    {
+    global $levelinfo;
+    $pagefilename = str_replace(' ','-',$pagename).'.html';
+    if ($pagename  == "index") { $pagename = $type; }
+        echo "<a href='".PATH."$type/$pagefilename'>$pagename</a>";
     }
  function _outputstat($item)
     {
